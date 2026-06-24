@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mental Health Research Digest</title>
+<title>Science &amp; Environment Research Digest</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -129,7 +129,7 @@
   .badge-gb    { background: #fef3c7; color: #92400e; }
   .badge-media { background: #dcfce7; color: #166534; }
 
-  /* NS Score badge */
+  /* Relevance Score badge */
   .score-badge {
     display: inline-flex;
     align-items: center;
@@ -173,7 +173,7 @@
     margin-bottom: 10px;
   }
 
-  /* ── NS Pitch ── */
+  /* ── Pitch Angles ── */
   .pitch-toggle {
     display: flex;
     align-items: center;
@@ -187,8 +187,6 @@
     color: #1d4ed8;
     font-weight: 600;
     user-select: none;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
   }
   .pitch-toggle:hover { background: #dbeafe; }
   .pitch-toggle .arrow { transition: transform 0.2s; font-style: normal; }
@@ -200,9 +198,30 @@
     background: #f0f7ff;
     border-top: 1px solid #dbeafe;
     font-size: 0.88rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .pitch-body.open { display: block; }
-  .pitch-field { margin-bottom: 12px; }
+
+  .pitch-angle-block {
+    background: white;
+    border: 1px solid #dbeafe;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+  }
+  .pitch-angle-block:last-child { margin-bottom: 0; }
+  .pitch-pub-type {
+    font-size: 0.72rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2563eb;
+    margin-bottom: 6px;
+  }
+  .pitch-field { margin-bottom: 10px; }
+  .pitch-field:last-child { margin-bottom: 0; }
   .pitch-field label {
     display: block;
     font-size: 0.72rem;
@@ -210,7 +229,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #2563eb;
+    color: #64748b;
     margin-bottom: 3px;
   }
   .pitch-field p { color: #1e3a6e; margin: 0; line-height: 1.5; }
@@ -295,7 +314,7 @@
 <header>
   <div class="header-row">
     <div>
-      <h1>📰 Mental Health &amp; Brain Science Research Digest</h1>
+      <h1>Science &amp; Environment Research Digest</h1>
       <div class="meta" id="last-updated">Loading…</div>
     </div>
     <div class="stats-chips" id="stats-chips"></div>
@@ -307,6 +326,11 @@
 
   <select id="filter-category" onchange="applyFilters()">
     <option value="">All categories</option>
+    <option value="Environmental Health">Environmental Health</option>
+    <option value="Public Health &amp; Epidemiology">Public Health &amp; Epidemiology</option>
+    <option value="Genetics &amp; Molecular Biology">Genetics &amp; Molecular Biology</option>
+    <option value="Infectious Disease">Infectious Disease</option>
+    <option value="Pharmacology &amp; Drug Therapy">Pharmacology &amp; Drug Therapy</option>
   </select>
 
   <select id="filter-groundbreaking" onchange="applyFilters()">
@@ -314,6 +338,7 @@
     <option value="Counterintuitive">Counterintuitive</option>
     <option value="Overturns">Overturns prior research</option>
     <option value="First-in-class">First-in-class</option>
+    <option value="Major public health">Major public health implication</option>
   </select>
 
   <select id="filter-status" onchange="applyFilters()">
@@ -339,7 +364,7 @@
   </select>
 
   <select id="sort-by" onchange="applyFilters()">
-    <option value="score" selected>Sort: NS score</option>
+    <option value="score" selected>Sort: Relevance score</option>
     <option value="date">Sort: newest first</option>
   </select>
 
@@ -354,7 +379,7 @@
 
 <script>
 let ALL_STUDIES = [];
-const STATUS_KEY = "mh-digest-status";
+const STATUS_KEY = "se-digest-status";
 
 // ── Load data ──────────────────────────────────────────────────────────────
 async function init() {
@@ -365,16 +390,7 @@ async function init() {
 
     document.getElementById("last-updated").textContent =
       "Last updated: " + new Date(data.last_updated).toLocaleString() +
-      " · " + data.total_studies + " total studies";
-
-    // Build category list
-    const cats = [...new Set(data.studies.map(s => s.category))].sort();
-    const sel = document.getElementById("filter-category");
-    cats.forEach(c => {
-      const o = document.createElement("option");
-      o.value = c; o.textContent = c;
-      sel.appendChild(o);
-    });
+      " · " + data.total_studies + " total studies · Daily research discovery for science and environment journalists";
 
     ALL_STUDIES = data.studies;
     renderStats(data);
@@ -449,14 +465,16 @@ function applyFilters() {
     if (statusF && status !== statusF) return false;
     if (category && s.category !== category) return false;
     if (gbType && !(s.groundbreaking || "").includes(gbType)) return false;
-    if (minScore > 0 && (s.ns_score || 0) < minScore) return false;
+    if (minScore > 0 && (s.relevance_score || 0) < minScore) return false;
     if (cutoff) {
       const rd = new Date(s.run_date);
       if (rd < cutoff) return false;
     }
     if (query) {
-      const text = [s.headline, s.summary, s.category, s.journal,
-                    s.ns_pitch?.pitch_angle, s.ns_pitch?.hook].join(" ").toLowerCase();
+      const pitchText = (s.pitch_angles || [])
+        .map(p => [p.pitch_angle, p.hook, p.headline].join(" "))
+        .join(" ");
+      const text = [s.headline, s.summary, s.category, s.journal, pitchText].join(" ").toLowerCase();
       if (!text.includes(query)) return false;
     }
     return true;
@@ -464,7 +482,7 @@ function applyFilters() {
 
   // Sort
   if (sortBy === "score") {
-    filtered.sort((a, b) => (b.ns_score || 0) - (a.ns_score || 0));
+    filtered.sort((a, b) => (b.relevance_score || 0) - (a.relevance_score || 0));
   } else {
     filtered.sort((a, b) => (b.run_date || "").localeCompare(a.run_date || ""));
   }
@@ -490,20 +508,35 @@ function clearFilters() {
 }
 
 function scoreBadge(s) {
-  const score = s.ns_score;
+  const score = s.relevance_score;
   if (!score && score !== 0) return "";
   const cls   = score >= 8 ? "score-high" : score >= 6 ? "score-mid" : "score-low";
   const label = score >= 8 ? "Top pick" : score >= 6 ? "Strong" : "Lower fit";
-  const title = esc(s.ns_score_reason || "");
-  return `<span class="score-badge ${cls}" title="${title}"><span class="score-dot"></span>${score}/10 · ${label}</span>`;
+  const title = esc(s.relevance_score_reason || "");
+  return `<span class="score-badge ${cls}" title="${title}"><span class="score-dot"></span>Relevance ${score}/10 · ${label}</span>`;
+}
+
+// ── Pitch angles rendering ─────────────────────────────────────────────────
+function renderPitchAngles(angles) {
+  if (!angles || angles.length === 0) return "";
+  return angles.map(p => `
+    <div class="pitch-angle-block">
+      ${p.publication_type ? `<div class="pitch-pub-type">${esc(p.publication_type)}</div>` : ""}
+      ${p.headline ? `<div class="pitch-field"><label>Headline</label><p class="pitch-headline">${esc(p.headline)}</p></div>` : ""}
+      ${p.hook ? `<div class="pitch-field"><label>Opening hook</label><p>${esc(p.hook)}</p></div>` : ""}
+      ${p.why_it_fits ? `<div class="pitch-field"><label>Why it fits</label><p>${esc(p.why_it_fits)}</p></div>` : ""}
+      ${p.pitch_angle ? `<div class="pitch-field"><label>Pitch angle</label><p>${esc(p.pitch_angle)}</p></div>` : ""}
+      ${p.caveats_to_flag ? `<div class="pitch-field"><label>Caveats to flag</label><p>${esc(p.caveats_to_flag)}</p></div>` : ""}
+    </div>
+  `).join("");
 }
 
 // ── Card rendering ────────────────────────────────────────────────────────
 function renderCard(s) {
   const statuses = getStatuses();
   const status = statuses[s.pmid] || "new";
-  const pitch = s.ns_pitch || {};
-  const hasPitch = pitch.headline || pitch.hook || pitch.pitch_angle;
+  const pitchAngles = s.pitch_angles || [];
+  const hasPitch = pitchAngles.length > 0;
 
   const statusBtns = ["new","saved","pitched","passed"].map(st =>
     `<button class="status-btn${status === st ? ` active-${st}` : ''}"
@@ -515,16 +548,15 @@ function renderCard(s) {
     ? `<div class="fact-check-note">⚠️ <strong>Fact-check note:</strong> ${esc(s.fact_check_note)}</div>`
     : "";
 
+  const angleCount = pitchAngles.length;
+  const pitchLabel = angleCount === 1 ? "Pitch angle" : `${angleCount} pitch angles`;
+
   const pitchSection = hasPitch ? `
     <div class="pitch-toggle" onclick="togglePitch(this)" data-pmid="${s.pmid}">
-      <span class="arrow">▶</span> 📰 New Scientist Mind pitch
+      <span class="arrow">▶</span> ${pitchLabel}
     </div>
     <div class="pitch-body" id="pitch-${s.pmid}">
-      ${pitch.headline ? `<div class="pitch-field"><label>Suggested headline</label><p class="pitch-headline">${esc(pitch.headline)}</p></div>` : ""}
-      ${pitch.hook ? `<div class="pitch-field"><label>Opening hook</label><p>${esc(pitch.hook)}</p></div>` : ""}
-      ${pitch.why_it_fits ? `<div class="pitch-field"><label>Why it fits Mind</label><p>${esc(pitch.why_it_fits)}</p></div>` : ""}
-      ${pitch.pitch_angle ? `<div class="pitch-field"><label>Pitch angle</label><p>${esc(pitch.pitch_angle)}</p></div>` : ""}
-      ${pitch.caveats_to_flag ? `<div class="pitch-field"><label>Caveats to flag</label><p>${esc(pitch.caveats_to_flag)}</p></div>` : ""}
+      ${renderPitchAngles(pitchAngles)}
     </div>
   ` : "";
 

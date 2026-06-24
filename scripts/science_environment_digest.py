@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Mental Health & Brain Science Research Digest
+Science & Environment Research Digest
 Searches PubMed, filters via SERPAPI, writes structured JSON with Claude, sends short email via Resend.
 Results are saved as a GitHub Actions artifact and merged into data/results.json by the deploy job,
 which powers the GitHub Pages dashboard.
@@ -45,21 +45,17 @@ TOPIC_FOCUS      = os.environ.get("TOPIC_FOCUS", "").strip()
 CHUNK_INDEX      = int(os.environ.get("CHUNK_INDEX", "1"))
 CHUNK_TOTAL      = int(os.environ.get("CHUNK_TOTAL", "1"))
 FILTER_CATEGORY  = os.environ.get("FILTER_CATEGORY", "").strip()
-DASHBOARD_URL    = os.environ.get("DASHBOARD_URL", "https://meggers1982.github.io/new-scientist-story-ideas/")
+DASHBOARD_URL    = os.environ.get("DASHBOARD_URL", "")
 RESULTS_PATH     = Path("/tmp/results.json")
 
-CSV_PATH = Path(__file__).parent.parent / "data" / "Mental Health - Brain Mental Health.csv"
+DATA_DIR = Path(__file__).parent.parent / "data"
 
 ALL_CATEGORIES = [
-    "Psychology",
-    "Psychiatry",
-    "Behavioral Sciences",
-    "Brain",
-    "Psychophysiology",
-    "Neurology",
-    "Psychopharmacology",
-    "Social Sciences",
-    "Substance-Related Disorders",
+    "Environmental Health",
+    "Public Health & Epidemiology",
+    "Genetics & Molecular Biology",
+    "Infectious Disease",
+    "Pharmacology & Drug Therapy",
 ]
 
 DAYS_BACK         = 7
@@ -67,8 +63,8 @@ MEDIA_THRESHOLD   = 3
 MEDIA_RELAX       = 5
 MIN_STUDIES       = 5
 MAX_CANDIDATES    = 30
-MIN_TITLE_SCORE   = 1      # studies scoring 0 on novelty signals skip abstract fetch
-ABSTRACT_MAX_CHARS = 5000  # raised — DOI fetch now supplements short abstracts
+MIN_TITLE_SCORE   = 1
+ABSTRACT_MAX_CHARS = 5000
 PUBMED_ISSN_BATCH = 3
 ESUMMARY_BATCH    = 20
 NCBI_DELAY        = 0.4
@@ -107,16 +103,6 @@ HUMAN_SIGNALS = {
     "adolescent", "population", "longitudinal", "cross-sectional", "survey",
 }
 
-NS_STYLE_NOTES = """
-New Scientist Mind section style:
-- Headlines: present tense, counterintuitive, punchy. E.g. "Vocal fry is more common in men, actually"
-- Lead with the surprising finding immediately
-- One researcher quote + one independent expert quote
-- Acknowledge limitations naturally
-- 400-600 words, warm intelligent tone
-- Covers: relationships, sleep, emotion, cognition, mental health treatments, neurodiversity, social behaviour
-"""
-
 
 # ── Step 1: Category & ISSN resolution ───────────────────────────────────────
 
@@ -137,12 +123,20 @@ def is_animal_only(title: str) -> bool:
     return any(sig in t for sig in ANIMAL_ONLY_SIGNALS) and not any(sig in t for sig in HUMAN_SIGNALS)
 
 
+def csv_path_for_category(category: str) -> Path:
+    safe_name = category.replace("/", "&").replace("\\", "&")
+    return DATA_DIR / f"{safe_name}.csv"
+
+
 def get_issns(selected_cats: list[str]) -> list[str]:
     issns = set()
-    with open(CSV_PATH, newline="", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            row_cats = [c.strip() for c in row["Categories"].split(";")]
-            if any(c in row_cats for c in selected_cats):
+    for cat in selected_cats:
+        path = csv_path_for_category(cat)
+        if not path.exists():
+            print(f"  WARNING: CSV not found for category '{cat}': {path}")
+            continue
+        with open(path, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
                 issn = row.get("ISSN (Online)", "").strip() or row.get("ISSN (Print)", "").strip()
                 if issn:
                     issns.add(issn)
@@ -226,9 +220,7 @@ def screen_candidates(summaries: dict) -> list[tuple]:
             continue
         if not s["title"]:
             continue
-        if is_animal_only(s["title"]):
-            print(f"  PMID {pmid}: animal-only title — skipped")
-            continue
+        # Animal-only studies are not excluded here (unlike MH digest) — they score lower
         score = title_score(s["title"])
         if score >= MIN_TITLE_SCORE:
             scored.append((score, pmid, s))
@@ -236,7 +228,6 @@ def screen_candidates(summaries: dict) -> list[tuple]:
             zero_score.append((score, pmid, s))
     scored.sort(key=lambda x: -x[0])
     result = scored[:MAX_CANDIDATES]
-    # If we have very few candidates, fill remaining slots from zero-score studies
     if len(result) < MIN_STUDIES:
         slots = MIN_STUDIES - len(result)
         result.extend(zero_score[:slots])
@@ -281,14 +272,13 @@ def apply_media_filter(candidates: list[tuple], threshold: int) -> list[tuple]:
 # ── Step 5: Fetch abstracts ──────────────────────────────────────────────────
 
 def fetch_doi_content(doi: str) -> str:
-    """Try to scrape full abstract from publisher DOI page."""
     if not doi:
         return ""
     try:
         headers = {
             "User-Agent": (
                 "Mozilla/5.0 (compatible; research-digest-bot/1.0; "
-                "+https://github.com/Meggers1982/new-scientist-story-ideas)"
+                "+https://github.com/Meggers1982/science-environment-digest)"
             ),
             "Accept": "text/html,application/xhtml+xml",
         }
@@ -296,7 +286,6 @@ def fetch_doi_content(doi: str) -> str:
         r.raise_for_status()
         html = r.text
 
-        # 1. citation_abstract meta tag (used by many publishers)
         for pattern in [
             r'<meta[^>]+name="citation_abstract"[^>]+content="([^"]{200,})"',
             r'<meta[^>]+content="([^"]{200,})"[^>]+name="citation_abstract"',
@@ -305,7 +294,6 @@ def fetch_doi_content(doi: str) -> str:
             if m:
                 return m.group(1).strip()
 
-        # 2. Common abstract container elements
         for pattern in [
             r'<(?:div|section)[^>]+id="[^"]*abstract[^"]*"[^>]*>(.*?)</(?:div|section)>',
             r'<(?:div|section)[^>]+class="[^"]*abstract[^"]*"[^>]*>(.*?)</(?:div|section)>',
@@ -325,7 +313,6 @@ def fetch_doi_content(doi: str) -> str:
 
 
 def fetch_abstract(pmid: str, doi: str = "") -> str:
-    """Fetch abstract from PubMed; supplement with DOI page if PubMed text is short."""
     pubmed_text = ""
     url = f"{PUBMED_BASE}/efetch.fcgi?db=pubmed&id={pmid}&retmode=text&rettype=abstract"
     try:
@@ -337,7 +324,6 @@ def fetch_abstract(pmid: str, doi: str = "") -> str:
     except Exception as e:
         print(f"  efetch error for {pmid}: {e}")
 
-    # Try DOI page for a richer abstract
     if doi:
         time.sleep(NCBI_DELAY)
         doi_text = fetch_doi_content(doi)
@@ -351,7 +337,6 @@ def fetch_abstract(pmid: str, doi: str = "") -> str:
 # ── Step 6: Claude — single combined pass ────────────────────────────────────
 
 def extract_json(text: str) -> list:
-    """Extract a JSON array from Claude's response, handling markdown code fences."""
     match = re.search(r"```(?:json)?\s*(\[.*?\])\s*```", text, re.DOTALL)
     if match:
         return json.loads(match.group(1))
@@ -362,10 +347,6 @@ def extract_json(text: str) -> list:
 
 
 def process_batch(batch: list[dict], start_num: int, media_checked: bool) -> list[dict]:
-    """
-    Single Claude pass: write digest entry + verify against abstract + generate NS pitch.
-    Returns a list of enriched study dicts.
-    """
     media_note = "Not widely covered ✓ (SERPAPI verified)" if media_checked else "Not verified — SERPAPI unavailable"
 
     studies_block = ""
@@ -377,51 +358,67 @@ Title: {s['title']}
 Abstract: {s['abstract']}
 """
 
-    prompt = f"""You are a science writer and editor for a Mental Health & Brain Science Research Digest, writing for a journalist audience.
+    prompt = f"""You are a science writer and editor for a Science & Environment Research Digest, writing for a journalist audience covering environmental health, public health, genetics, infectious disease, and pharmacology.
+
+Your readers pitch to publications like National Geographic, Scientific American, Discover, The Atlantic, Wired, and similar science-forward general interest outlets.
 
 For each study below, return a single JSON array. Each object must have exactly these keys:
 
 {{
   "pmid": "string — copy from input",
-  "headline": "Plain-language present-tense headline, no jargon (NS Mind style: punchy, counterintuitive)",
+  "headline": "Plain-language present-tense headline, no jargon — punchy, counterintuitive, or surprising",
   "journal": "journal name",
   "pubdate": "publication date",
   "doi": "doi or empty string",
-  "groundbreaking": "one or more of: Counterintuitive finding / Overturns prior research / First-in-class human study / Included for relevance",
+  "groundbreaking": "one or more of: Counterintuitive finding / Overturns prior research / First-in-class human study / Major public health implication",
   "media_coverage": "{media_note}",
-  "summary": "2-4 sentences: what researchers did, who participated (N=X), key finding in plain language — verified against abstract",
-  "why_it_matters": "1-2 sentences of real-world significance. Do NOT imply clinical action.",
-  "caveats": "comma-separated flags present in the abstract: small sample (N<100), observational design, single-center, self-reported outcomes, short follow-up, industry funding [name], preprint, secondary analysis — or 'None identified'",
-  "fact_check_note": "Describe any corrections you made to summary/caveats vs what the abstract actually says, or empty string if nothing needed fixing",
+  "summary": "2-4 sentences: what researchers did, who or what was studied (N=X if human, otherwise describe), key finding in plain language — verified against abstract",
+  "why_it_matters": "1-2 sentences of real-world or societal significance. Do NOT imply clinical action.",
+  "caveats": "comma-separated flags: small sample (N<100), observational design, single-center, self-reported outcomes, short follow-up, industry funding [name], preprint, secondary analysis, animal or cell study — or 'None identified'",
+  "fact_check_note": "Describe any corrections made vs what the abstract actually says, or empty string",
   "excluded": false,
-  "ns_score": 7,
-  "ns_score_reason": "One sentence explaining the score — what makes it strong or weak for NS Mind",
-  "ns_pitch": {{
-    "headline": "NS Mind headline — present tense, punchy, counterintuitive",
-    "hook": "One sentence opening, leading with the surprising finding",
-    "why_it_fits": "One sentence on why NS Mind readers would care",
-    "pitch_angle": "2-3 sentence commissioning pitch: what happened, why surprising, societal hook",
-    "caveats_to_flag": "Limitations the journalist should acknowledge in the article"
-  }}
+  "relevance_score": 7,
+  "relevance_score_reason": "One sentence explaining the score — what makes it strong or weak for science journalism",
+  "pitch_angles": [
+    {{
+      "publication_type": "e.g. National Geographic / Scientific American / The Atlantic / Wired / General science",
+      "headline": "Publication-appropriate headline",
+      "hook": "One sentence opening leading with the surprising or significant finding",
+      "why_it_fits": "One sentence on why readers of this publication would care",
+      "pitch_angle": "2-3 sentence commissioning pitch: what happened, why it matters, broader societal or scientific significance",
+      "caveats_to_flag": "Limitations the journalist should acknowledge"
+    }}
+  ]
 }}
 
-Rules:
-- Verify sample size (N), study design, direction of effect against the abstract. Correct any errors and note in fact_check_note.
+Rules for pitch_angles:
+- Generate ONE pitch angle if the study fits one obvious publication type
+- Generate MULTIPLE angles (2-3 max) only when the study genuinely fits different audiences with meaningfully different framings — e.g. a drug resistance study could pitch differently to Scientific American (mechanism angle) vs The Atlantic (public health policy angle)
+- Do not pad with extra angles if one covers it
+
+Rules for content:
+- Verify sample size (N), study design, direction of effect against the abstract
+- For environmental health: be specific about the exposure, population, and geography — do not overgeneralize
+- For genetics: distinguish between association studies and mechanistic findings — never imply a gene "causes" a trait without strong evidence
+- For infectious disease: note whether findings are specific to a pathogen, strain, or outbreak context
+- For pharmacology: note whether findings are in vitro, animal, or human trials — this is critical
+- Animal and cell studies are NOT automatically excluded here (unlike medical digests) — they may be scientifically significant — but must be clearly labeled and scored lower
 - Never use: breakthrough, cure, reverses, eliminates, proven to prevent
 - Always use: suggests, found that, associated with, early evidence indicates
 - No causal language for observational studies
-- If a study is conducted entirely in animals, cell lines, or computational models: set "excluded": true, headline "EXCLUDED: animal/non-human study only", ns_score 0, other fields empty strings
-- ns_score rubric (1–10): start at 5, then adjust:
-  +2 counterintuitive or overturns prior belief
-  +2 human subjects, decent sample (N≥100)
-  +1 clear societal/lifestyle hook NS Mind readers care about
-  +1 clean design (RCT, longitudinal, large cohort)
-  −1 per major caveat (small N, self-report, single-center, etc.)
-  −2 animal/non-human only (but those are excluded anyway)
-  Topic fit bonus: relationships, sleep, emotion, cognition, mental health treatment, neurodiversity, social behaviour score higher
-- Return ONLY a valid JSON array, no other text
 
-{NS_STYLE_NOTES}
+relevance_score rubric (1–10): start at 5, then adjust:
+  +2 counterintuitive or overturns prior belief
+  +2 human subjects or large-scale epidemiological data (N≥1000)
+  +1 clear societal, environmental, or public health hook
+  +1 clean design (RCT, longitudinal, large cohort, or rigorous lab study)
+  +1 directly relevant to everyday life (air quality, food safety, drug side effects, pandemic preparedness)
+  −1 per major caveat
+  −1 animal or cell study (not excluded, but lower priority for general audience)
+  −2 purely computational with no validation
+  Topic fit bonus: microplastics, climate and health, antibiotic resistance, cancer genetics, pandemic preparedness, PFAS/forever chemicals, gut microbiome, CRISPR and gene editing, drug pricing and access score higher
+
+Return ONLY a valid JSON array, no other text.
 
 Studies:
 {studies_block}"""
@@ -429,7 +426,7 @@ Studies:
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     message = client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=6000,
+        max_tokens=8000,
         messages=[{"role": "user", "content": prompt}],
     )
     try:
@@ -445,18 +442,18 @@ Studies:
                  "groundbreaking": "Included for relevance", "media_coverage": media_note,
                  "summary": "", "why_it_matters": "", "caveats": "",
                  "fact_check_note": "", "excluded": False,
-                 "ns_pitch": {}} for s in batch]
+                 "relevance_score": 0, "relevance_score_reason": "",
+                 "pitch_angles": []} for s in batch]
 
 
 # ── Step 7: Email notification ───────────────────────────────────────────────
 
 def send_notification(category: str, chunk_label: str, study_count: int, run_date: str):
-    """Send a short email nudge linking to the dashboard."""
-    subject = f"New studies: {category}{chunk_label} — {run_date} ({study_count} studies)"
+    subject = f"Science & Environment Research Digest — {run_date} | {study_count} {'Study' if study_count == 1 else 'Studies'}"
     html = f"""<!DOCTYPE html>
 <html>
 <body style="font-family:Georgia,serif;max-width:500px;margin:auto;padding:24px;color:#222;">
-<h2 style="color:#1a1a2e;">Mental Health Research Digest</h2>
+<h2 style="color:#1a1a2e;">Science &amp; Environment Research Digest</h2>
 <p><strong>{study_count} new {'study' if study_count == 1 else 'studies'}</strong> found in
 <strong>{category}{chunk_label}</strong> — {run_date}</p>
 <p>
@@ -465,7 +462,7 @@ def send_notification(category: str, chunk_label: str, study_count: int, run_dat
   View Dashboard →</a>
 </p>
 <p style="font-size:0.85em;color:#888;margin-top:2em;">
-  Mental Health &amp; Brain Science Research Digest · PubMed + Claude + SERPAPI
+  Science &amp; Environment Research Digest · PubMed + Claude + SERPAPI
 </p>
 </body>
 </html>"""
@@ -487,12 +484,12 @@ def send_notification(category: str, chunk_label: str, study_count: int, run_dat
 def main():
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=DAYS_BACK)
-    start_str   = start.strftime("%Y/%m/%d")
-    end_str     = now.strftime("%Y/%m/%d")
-    run_date    = now.strftime("%b %d, %Y")
+    start_str = start.strftime("%Y/%m/%d")
+    end_str   = now.strftime("%Y/%m/%d")
+    run_date  = now.strftime("%b %d, %Y")
 
     print("=" * 60)
-    print("Mental Health & Brain Science Research Digest")
+    print("Science & Environment Research Digest")
     print(f"Coverage: {start.strftime('%b %d, %Y')} → {run_date}")
     print("=" * 60)
 
@@ -547,7 +544,6 @@ def main():
         print("No studies — exiting.")
         return
 
-    # Single Claude pass: write + verify + pitch
     print(f"\nClaude pass ({CLAUDE_MODEL}) — writing, fact-checking, pitching...")
     enriched = []
     total_batches = (len(studies) + CLAUDE_BATCH_SIZE - 1) // CLAUDE_BATCH_SIZE
@@ -557,7 +553,7 @@ def main():
         results = process_batch(batch, i + 1, media_checked)
         enriched.extend(results)
 
-    # Filter excluded studies
+    # Animal/cell studies are included but may have excluded=true if Claude deemed them irrelevant
     enriched = [s for s in enriched if not s.get("excluded")]
     print(f"Included after exclusion check: {len(enriched)}")
 
@@ -565,7 +561,6 @@ def main():
         print("No included studies — exiting.")
         return
 
-    # Build result payload
     chunk_label = f" ({CHUNK_INDEX}/{CHUNK_TOTAL})" if CHUNK_TOTAL > 1 else ""
     payload = {
         "run_date": now.strftime("%Y-%m-%d"),

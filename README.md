@@ -1,122 +1,77 @@
-# Mental Health & Brain Science Research Digest
+# Science & Environment Research Digest
 
-A GitHub Actions workflow that searches a curated list of mental health and brain science journals on PubMed, filters out widely covered stories, runs two Claude passes (writer + fact-checker/editor), and publishes results to a GitHub Pages dashboard — **https://meggers1982.github.io/new-scientist-story-ideas/**
+A daily PubMed monitoring tool that surfaces new research in environmental health, public health, genetics, infectious disease, and pharmacology — with AI-generated story pitch angles for science and environment journalists.
 
----
+## What it does
 
-## How it works
-
-1. **PubMed search** — Queries journals by ISSN for studies published in the past 7 days
-2. **Title screening** — Prioritises studies with signals of novelty (first-in-class, counterintuitive, overturns prior research). Excludes animal-only studies.
-3. **SERPAPI media filter** — Checks Google News and skips any study with 3+ news results
-4. **Abstract fetch** — Retrieves full abstracts for shortlisted studies
-5. **Claude pass 1 (writer)** — Writes structured JSON entries: headline, summary, why it matters, caveats
-6. **Claude pass 2 (editor/fact-checker)** — Verifies each entry against the abstract, corrects errors, adds a New Scientist Mind pitch angle
-7. **Artifact upload** — Saves JSON results as a GitHub Actions artifact
-8. **Deploy job** — Downloads all 13 job artifacts, merges and deduplicates by PMID, commits `data/results.json`, serves via GitHub Pages
-9. **Email notification** — Short email with study count and link to dashboard
-
----
-
-## Dashboard
-
-**URL:** https://meggers1982.github.io/new-scientist-story-ideas/
-
-Features:
-- Card view per study with headline, summary, caveats, fact-check notes
-- Expandable New Scientist Mind pitch section per study
-- Filter by category, groundbreaking type, status, and date range
-- Search across all study text and pitches
-- Status tracking (New / Saved / Pitched / Passed) saved to localStorage
-- Deduplication across runs — same PMID won't appear twice
-
----
-
-## Schedule
-
-Runs automatically every **morning at 7:00 AM ET**. All 13 jobs run in parallel; the deploy job merges results and publishes the dashboard once all jobs complete.
-
-Can also be triggered manually via **Actions → Mental Health Research Digest → Run workflow**.
-
----
+Each day, a GitHub Actions workflow:
+1. Queries PubMed for recent studies across five science/environment journal categories
+2. Filters out editorials, letters, and widely-covered stories (via SERPAPI)
+3. Sends studies through Claude with a science journalism prompt that produces structured pitch angles
+4. Merges results into a GitHub Pages dashboard
 
 ## Categories
 
-| Category | Journals | Jobs |
-|---|---|---|
-| Psychology | 135 | 3 (chunks 1–3) |
-| Psychiatry | 111 | 2 (chunks 1–2) |
-| Behavioral Sciences | 88 | 2 (chunks 1–2) |
-| Brain | 23 | 1 |
-| Neurology | 21 | 1 |
-| Psychophysiology | 22 | 1 |
-| Psychopharmacology | 14 | 1 |
-| Social Sciences | 7 | 1 |
-| Substance-Related Disorders | 4 | 1 |
+- **Environmental Health** — air quality, PFAS, microplastics, climate and health, chemical exposure
+- **Public Health & Epidemiology** — disease burden, surveillance, pandemic preparedness, health equity
+- **Genetics & Molecular Biology** — GWAS, CRISPR, gene expression, molecular mechanisms
+- **Infectious Disease** — pathogen biology, antibiotic resistance, outbreak dynamics, vaccines
+- **Pharmacology & Drug Therapy** — drug trials, mechanisms of action, adverse effects, drug access
 
-Large categories are split into chunks so each job processes ~45 journals, keeping run times under 20 minutes.
+## Pitch angles
 
----
+Unlike the mental health digest (which generates a single New Scientist Mind pitch), this tool generates **1–3 pitch angles per study**, each framed for a different publication type:
 
-## Manual trigger
+- National Geographic — big-picture environmental or biological significance
+- Scientific American — mechanistic detail, how-science-works angle
+- The Atlantic — policy, equity, or societal implications
+- Wired — technology, innovation, or systems angle
+- General science — broad audience interest
 
-Go to **Actions → Mental Health Research Digest → Run workflow**.
+## Dashboard
 
-- Leave **category** blank to run all 13 jobs
-- Enter an exact category name (e.g. `Brain`) to run just that category
+The GitHub Pages dashboard at the repo URL lets you:
+- Filter by category, groundbreaking type, relevance score, date range
+- Sort by relevance score or date
+- Mark studies as New / Saved / Pitched / Passed
+- Expand per-publication pitch angles
+- Search across headlines, summaries, and pitch text
 
----
+## Setup
 
-## GitHub Pages setup
-
-1. Go to **Settings → Pages**
-2. Set source to **Deploy from a branch**
-3. Branch: `main`, folder: `/ (root)`
-4. Save — GitHub will serve `index.html` at the dashboard URL
-
----
-
-## Required secrets
-
-Add these in **Settings → Secrets and variables → Actions**:
+### Secrets required
 
 | Secret | Description |
-|---|---|
-| `ANTHROPIC_API_KEY` | Anthropic API key (`sk-ant-...`) |
-| `SERPAPI_KEY` | SerpAPI key for Google News filtering |
-| `RESEND_API_KEY` | Resend API key (`re_...`) for email delivery |
+|--------|-------------|
+| `ANTHROPIC_API_KEY` | Anthropic API key |
+| `RESEND_API_KEY` | Resend email API key |
+| `SERPAPI_KEY` | SerpAPI key (optional — skips media filter if absent) |
 
----
+### Variable required
 
-## Repo structure
+| Variable | Description |
+|----------|-------------|
+| `DASHBOARD_URL` | GitHub Pages URL for the dashboard (used in email links) |
 
+### GitHub Pages
+
+Enable GitHub Pages in repo Settings → Pages → Deploy from branch → `main` / `root`.
+
+## Local development
+
+```bash
+pip install -r requirements.txt
+
+# Extract journals from spreadsheet
+python scripts/extract_journals.py
+
+# Run the digest locally (requires env vars)
+export ANTHROPIC_API_KEY=...
+export RESEND_API_KEY=...
+CATEGORIES="Environmental Health" python scripts/science_environment_digest.py
 ```
-.github/
-  workflows/
-    mh-digest.yml           # GitHub Actions workflow (matrix + deploy)
-scripts/
-  mh_digest.py              # Main pipeline: PubMed → Claude → JSON artifact
-  merge_results.py          # Deploy job: merges artifacts → data/results.json
-data/
-  Mental Health - Brain Mental Health.csv   # Curated journal list with ISSNs
-  results.json              # Auto-generated by deploy job; read by dashboard
-index.html                  # GitHub Pages dashboard
-requirements.txt
-```
 
----
+## Data files
 
-## Dashboard study card fields
-
-Each study card on the dashboard shows:
-
-- **Headline** — plain-language present-tense summary
-- **Category & journal** — source metadata
-- **Groundbreaking type** — Counterintuitive / Overturns prior research / First-in-class
-- **Media coverage** — SERPAPI verification status
-- **The study** — what was done, who participated, key finding
-- **Why it matters** — real-world significance
-- **Caveats** — limitations flagged automatically
-- **⚠ Fact-check note** — corrections made by the editor pass
-- **📰 New Scientist Mind pitch** — suggested headline, opening hook, pitch angle, caveats to flag
-- **Status** — New / Saved / Pitched / Passed (tracked in your browser)
+- `data/*.csv` — journal lists per category, extracted from PubMed journal spreadsheet
+- `data/results.json` — accumulated study results powering the dashboard
