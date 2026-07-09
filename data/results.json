@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-07-09T13:56:02.811744+00:00",
-  "total_studies": 498,
+  "total_studies": 461,
   "new_this_run": 47,
   "studies": [
     {
@@ -197,33 +197,6 @@
           "headline": "Can Metal-Coated Plant Extracts Regrow Bone, Skin, and Nerves?",
           "hook": "A new class of biomaterials built from metals and polyphenols \u2014 the same compounds that give red wine its bite \u2014 may be unusually versatile tissue repair scaffolds.",
           "pitch_angle": "Metal-phenolic networks can be tuned to mimic different tissue environments and carry drugs or growth factors, making them candidate materials for everything from wound dressings to cardiac patches. Most evidence is still preclinical, but the breadth of potential applications is drawing growing research attention."
-        }
-      ],
-      "run_date": "2026-07-09",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42417283",
-      "headline": "Computational atlas of 2D ferroelectric materials could accelerate next-generation memory chip design",
-      "journal": "Physical Chemistry Chemical Physics",
-      "pubdate": "2026 Jul 8",
-      "doi": "10.1039/d6cp00468g",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Using first-principles calculations, researchers systematically characterized 16 two-dimensional \u03b1-A2B3 monolayer compounds (combinations of boron, aluminum, gallium, or indium with oxygen, sulfur, selenium, or tellurium) for their ferroelectric and electronic properties. They found that boron-containing compounds are dynamically unstable and cannot function as out-of-plane ferroelectrics \u2014 a counterintuitive result given boron's chemical versatility. For the stable compounds, the study provides a ready-to-use database of band gaps, polarization strengths, and energy level offsets to guide the design of ferroelectric memory and tunnel junction devices.",
-      "why_it_matters": "A validated database of 2D ferroelectric material parameters could streamline the development of ultra-low-power nonvolatile memory \u2014 a key bottleneck in energy-efficient computing.",
-      "caveats": "purely computational with no validation",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Computational materials database; no experimental validation; limited public audience hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / General science",
-          "headline": "Scientists Built a Cheat Sheet for Designing Atom-Thin Memory Materials",
-          "hook": "A new computational database tells chip designers exactly how 16 ultra-thin ferroelectric materials will behave at interfaces \u2014 potentially cutting years off device development.",
-          "pitch_angle": "Two-dimensional ferroelectrics could enable memory devices that retain data without constant power, but finding the right material combinations has been a slow, trial-and-error process. This atlas of calculated properties \u2014 including the surprise that boron compounds don't work as expected \u2014 gives engineers a shortcut to rational device design."
         }
       ],
       "run_date": "2026-07-09",
@@ -541,27 +514,6 @@
           "pitch_angle": "FPI-1523 works by blocking the enzymes that carbapenem-resistant bacteria use to dismantle last-resort antibiotics, and early lab and wax-moth-model testing suggests it is effective against multiple resistance types with low apparent toxicity. While human trials are still far off, the compound addresses a critical gap: NDM-producing superbugs, which currently have no approved beta-lactamase inhibitor, appeared vulnerable to FPI-1523 acting alone."
         }
       ],
-      "run_date": "2026-07-09",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42419268",
-      "headline": "Advances and challenges in microbiome transplantation.",
-      "journal": "Cell host & microbe",
-      "pubdate": "2026 Jul 8",
-      "doi": "10.1016/j.chom.2026.06.006",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
       "run_date": "2026-07-09",
       "category": "Infectious Disease",
       "chunk": "2/2",
@@ -1067,33 +1019,6 @@
       "run_date": "2026-07-09",
       "category": "Public Health & Epidemiology",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42363403",
-      "headline": "165 Scientists From 28 Countries Converge to Map the Future of Ovarian Biology",
-      "journal": "Molecular Human Reproduction",
-      "pubdate": "2026 Jul 7",
-      "doi": "10.1093/molehr/gaag039",
-      "groundbreaking": "",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This is a proceedings report from the inaugural European Ovary Workshop (EOW 2025), held in Lagos, Portugal in February 2025, which gathered 165 researchers and clinicians from 28 countries. The workshop covered topics spanning meiosis, folliculogenesis, ovarian aging, fertility preservation, environmental toxicology, and ethics. Post-workshop feedback from 86 participants rated scientific content 4.6/5 and identified priorities for future meetings.",
-      "why_it_matters": "Establishing a dedicated biennial European platform for ovarian research could accelerate translation of findings on fertility preservation and reproductive aging into clinical practice.",
-      "caveats": "observational design, small sample (N<100)",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Conference proceedings; no new empirical findings; limited pitch value.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "A New Scientific Community Is Putting the Ovary at the Center of Reproductive Medicine",
-          "hook": "For the first time, hundreds of ovarian biologists gathered specifically to push the field from lab bench to fertility clinic.",
-          "pitch_angle": "The inaugural European Ovary Workshop signals growing momentum to treat ovarian biology as a distinct discipline, with implications for fertility preservation, cancer survivorship, and reproductive aging. The meeting's breadth \u2014 from meiosis to environmental toxicology to wildlife conservation \u2014 reflects how central ovarian health is to broader human and ecological wellbeing."
-        }
-      ],
-      "run_date": "2026-07-09",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
       "status": "new"
     },
     {
@@ -1673,33 +1598,6 @@
       "status": "new"
     },
     {
-      "pmid": "42409073",
-      "headline": "Antibonding electron states make exotic compounds worse heat conductors than expected \u2014 and better thermoelectrics",
-      "journal": "Journal of Physics: Condensed Matter",
-      "pubdate": "2026 Jul 6",
-      "doi": "10.1088/1361-648X/ae86a6",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers used density functional theory and phonon transport modeling to predict the thermoelectric properties of three quaternary fluoride compounds (BaCdAsF, BaCdPF, BaCdSbF). They found that antibonding electron states near the valence band suppress heat conduction in a counterintuitive way \u2014 BaCdAsF conducts heat slightly less than BaCdSbF at high temperatures despite having stronger bonding overall. The compounds achieved ZT values up to 1.61 at 700 K, suggesting competitive thermoelectric performance.",
-      "why_it_matters": "Identifying materials that convert waste heat to electricity more efficiently could advance sustainable energy technology, but these findings remain computational and require experimental validation.",
-      "caveats": "animal or cell study, purely computational with no validation",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Computational materials physics; no human, environmental, or public health angle.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Wired",
-          "headline": "A Quirk in Electron Bonding Could Point to Better Heat-to-Electricity Materials",
-          "hook": "Counterintuitively, a compound with stronger atomic bonds conducts heat worse than its weaker-bonded cousin \u2014 and that anomaly could be useful.",
-          "pitch_angle": "Simulations of exotic fluoride compounds reveal that antibonding electron states can suppress thermal conductivity in unexpected ways. If experimentally confirmed, the principle could guide the design of more efficient thermoelectric materials for waste-heat recovery."
-        }
-      ],
-      "run_date": "2026-07-09",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
       "pmid": "42410152",
       "headline": "Bacteria that fight mushroom disease look promising in the lab but falter in real crops",
       "journal": "Applied Microbiology and Biotechnology",
@@ -1845,33 +1743,6 @@
           "headline": "A Radioactive Drug That Sticks to Tumors Longer Just Passed Its First Human Safety Test",
           "hook": "Existing radioactive cancer drugs clear the body too fast to deliver a full therapeutic punch \u2014 a new albumin-binding design may change that.",
           "pitch_angle": "In a first-in-human study of five patients, a novel radiopharmaceutical targeting the fibroblast activation protein found on tumor tissue showed manageable side effects and early signs of tumor response in one patient. The approach represents a new strategy in the fast-growing field of theranostics \u2014 drugs that can both image and treat cancer in a single agent."
-        }
-      ],
-      "run_date": "2026-07-09",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42402533",
-      "headline": "Extending a molecule's carbon backbone can shut down its own light-emission process",
-      "journal": "Journal of Fluorescence",
-      "pubdate": "2026 Jul 6",
-      "doi": "10.1007/s10895-026-04859-5",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers used computational chemistry (DFT and TD-DFT) to model how extending the \u03c0-conjugated backbone of a benzimidazole-based fluorophore affects its light absorption, emission, and excited-state intramolecular proton transfer (ESIPT) behavior. Five molecular variants were studied in silico, with calculations validated against experimental data for the parent compound. Counterintuitively, all forms of conjugation extension \u2014 both linear and fused-ring additions \u2014 increased the ESIPT energy barrier, inhibiting rather than enhancing the proton-transfer process, with anthracene extension showing the strongest suppressive effect.",
-      "why_it_matters": "Understanding how molecular structure controls fluorescence behavior could help chemists rationally design better sensors, bioimaging dyes, or optoelectronic materials.",
-      "caveats": "animal or cell study, purely computational with no validation beyond parent compound",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Highly specialized computational chemistry; limited public health or environmental hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "Adding More Carbon to a Glowing Molecule Can Make It Stop Glowing",
-          "hook": "Scientists expected bigger molecular scaffolds to amplify a special light-emission process \u2014 instead, every structural extension they tested shut it down.",
-          "pitch_angle": "Computational chemists modeled how stretching a fluorescent molecule's carbon backbone affects its ability to transfer a proton in its excited state, finding that all extensions raised the energy barrier and suppressed the process. The result suggests that fluorophore designers may need to rethink the intuition that 'more conjugation equals better emission.'"
         }
       ],
       "run_date": "2026-07-09",
@@ -2045,33 +1916,6 @@
       "run_date": "2026-07-09",
       "category": "Infectious Disease",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42406625",
-      "headline": "JAK inhibitor approved for eczema appears to clear rare destructive skin condition in single patient",
-      "journal": "American Journal of Therapeutics",
-      "pubdate": "2026 Jul 6",
-      "doi": "10.1097/MJT.0000000000002180",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers report a single case in which abrocitinib, a JAK1 inhibitor approved for atopic dermatitis, was used to treat elastolytic giant cell granuloma (EGCG), an extremely rare inflammatory skin disorder with no established therapy. No sample size beyond the single patient (N=1) is reported in the abstract, and full clinical details are limited. The case report suggests that JAK inhibition may be a novel therapeutic pathway for this condition, though no broader conclusions can be drawn from one patient.",
-      "why_it_matters": "For patients with rare inflammatory skin conditions that lack approved treatments, repurposing existing immunomodulatory drugs offers a potential path forward, though single case reports require much larger follow-up studies before any clinical implications can be considered.",
-      "caveats": "small sample (N<100), single-center, observational design",
-      "fact_check_note": "Abstract provided no patient outcome details beyond the case report framing; summary reflects only what is verifiable from available text.",
-      "relevance_score": 3,
-      "relevance_score_reason": "Extremely rare condition, N=1 case report; minimal generalizability for general audience.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "A Drug for Eczema May Help a Mysterious Skin-Destroying Condition With No Treatment",
-          "hook": "An anti-inflammatory drug already on pharmacy shelves for eczema appears to have helped a patient with a rare skin condition so obscure it barely appears in the medical literature.",
-          "pitch_angle": "The case suggests that JAK inhibitors, which dampen immune overactivation, might be repurposed for a broader class of inflammatory skin diseases \u2014 a hypothesis that will need many more patients to test."
-        }
-      ],
-      "run_date": "2026-07-09",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -2813,33 +2657,6 @@
       "status": "new"
     },
     {
-      "pmid": "42398485",
-      "headline": "A high-yttria form of a common industrial ceramic turns out to be harder and tougher than the versions engineers have relied on for decades",
-      "journal": "Journal of Molecular Graphics & Modelling",
-      "pubdate": "2026 Jul 3",
-      "doi": "10.1016/j.jmgm.2026.109507",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers used first-principles quantum mechanical calculations to model how varying yttria (Y2O3) concentration from 7 to 40 mol% affects the structural, mechanical, and thermal properties of yttria-stabilized zirconia (YSZ), a ceramic widely used in fuel cells and thermal barrier coatings. The models showed that YSZ adopts tetragonal, cubic, or hexagonal crystal structures depending on yttria content, and that the rarely studied hexagonal phase (40 mol% Y2O3) exhibits the highest hardness, fracture toughness, and lowest thermal conductivity of the three. All three crystal forms reached thermal stability at 1500 K, but the hexagonal phase's superior mechanical performance had not been systematically characterized before.",
-      "why_it_matters": "Identifying an underexplored ceramic phase with superior hardness and fracture toughness could inform the design of longer-lasting coatings for jet engines, power plants, and fuel cells.",
-      "caveats": "animal or cell study",
-      "fact_check_note": "The 'First-in-class human study' groundbreaking tag does not apply \u2014 this is a purely computational materials science study with no human subjects. Corrected: the only applicable groundbreaking tag is 'Counterintuitive finding' (hexagonal YSZ outperforms established phases). The animal/cell study caveat is a proxy here for 'computational study with no experimental validation.'",
-      "relevance_score": 3,
-      "relevance_score_reason": "Materials science with no public health angle; purely computational.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired",
-          "headline": "The Ceramic That Coats Jet Engines Has a Hidden, Tougher Form Engineers Have Been Ignoring",
-          "hook": "Computer simulations suggest that a high-yttria version of a workhorse industrial ceramic is harder and more fracture-resistant than the phases engineers have used for decades.",
-          "pitch_angle": "First-principles modeling of yttria-stabilized zirconia reveals that its hexagonal crystal form \u2014 formed at concentrations rarely used in industry \u2014 outperforms the standard tetragonal and cubic phases on hardness and fracture toughness. If validated experimentally, the finding could push materials scientists to rethink the composition of thermal barrier coatings used in everything from gas turbines to solid oxide fuel cells."
-        }
-      ],
-      "run_date": "2026-07-09",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
-      "status": "new"
-    },
-    {
       "pmid": "42398701",
       "headline": "The standard TB skin test may be dramatically over-diagnosing latent tuberculosis in vaccinated healthcare workers",
       "journal": "International Journal of Infectious Diseases",
@@ -2867,27 +2684,6 @@
           "pitch_angle": "By pooling data from 95 studies, researchers found that TST positivity strongly tracked BCG vaccination rates while IGRA results did not, pointing to a specificity problem that could be sending thousands of healthcare workers unnecessarily toward preventive antibiotic courses each year. The analysis adds large-scale epidemiological weight to calls for replacing the skin test with blood-based IGRAs in BCG-vaccinated populations."
         }
       ],
-      "run_date": "2026-07-09",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42397540",
-      "headline": "Postbiotics as Emerging Therapeutics for Allergic Diseases: A Novel Approach Beyond Live Biologics.",
-      "journal": "Probiotics and antimicrobial proteins",
-      "pubdate": "2026 Jul 3",
-      "doi": "10.1007/s12602-026-11108-5",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
       "run_date": "2026-07-09",
       "category": "Infectious Disease",
       "chunk": "2/2",
@@ -3410,27 +3206,6 @@
       "status": "new"
     },
     {
-      "pmid": "42392493",
-      "headline": "Genotypic diversity and molecular epidemiology of Acanthamoeba keratitis in China: Identification of novel T4 variants and source attribution.",
-      "journal": "Parasitology international",
-      "pubdate": "2026 Jul 2",
-      "doi": "10.1016/j.parint.2026.103327",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-07-09",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42390247",
       "headline": "Scientists trick immune cells into self-destructing to wipe out antibiotic-resistant staph",
       "journal": "Microbiology Spectrum",
@@ -3485,27 +3260,6 @@
           "pitch_angle": "Using a new cold-enrichment technique that dramatically improves Yersinia detection, German food safety scientists uncovered a startling 100% carriage rate in hunted wild boars, with the human-pathogenic Y. pseudotuberculosis present in more than one in five animals. As wild boar populations expand across Europe and game meat consumption rises, the findings suggest the animals may be quietly seeding both meat supplies and surrounding farmland with hard-to-detect zoonotic pathogens."
         }
       ],
-      "run_date": "2026-07-09",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42393807",
-      "headline": "A novel activation-related gene P158 is essential for evagination and early development of Echinococcus multilocularis protoscoleces.",
-      "journal": "Parasites & vectors",
-      "pubdate": "2026 Jul 2",
-      "doi": "10.1186/s13071-026-07543-6",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
       "run_date": "2026-07-09",
       "category": "Infectious Disease",
       "chunk": "2/2",
@@ -3614,27 +3368,6 @@
           "pitch_angle": "The new molecular atlas reveals that this parasite relies on a heavily phosphorylation-regulated energy metabolism to power its invasion of the gut, providing potential drug targets. With cryptosporidiosis killing tens of thousands of children annually and no fully effective treatment available, identifying the parasite's biochemical vulnerabilities is an essential first step toward new therapies."
         }
       ],
-      "run_date": "2026-07-09",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42410978",
-      "headline": "An integrated review of monkeypox: from pathogen and epidemiology to diagnostics, control, and challenges.",
-      "journal": "Emerging microbes & infections",
-      "pubdate": "2026 Dec",
-      "doi": "10.1080/22221751.2026.2695529",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
       "run_date": "2026-07-09",
       "category": "Infectious Disease",
       "chunk": "2/2",
@@ -3785,33 +3518,6 @@
       "run_date": "2026-07-08",
       "category": "Pharmacology & Drug Therapy",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41527283",
-      "headline": "Traditional PhD mentoring falls short for working professionals pursuing public health doctorates",
-      "journal": "Public Health Reports",
-      "pubdate": "2026 Jul-Aug",
-      "doi": "10.1177/00333549251403915",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers at the University of South Florida described a 'service-first focus' mentoring framework tailored to mid-career professionals in online Doctor of Public Health programs, applying the Community of Inquiry theoretical model. The study used a case study design from a single institution, supported by alumni testimonials. The authors argue that standard PhD mentoring models are misaligned with DrPH students' professional development needs, proposing six core elements including compassion, partnership, and a coaching mindset.",
-      "why_it_matters": "As online professional doctoral programs in public health expand, mismatched mentoring models could slow the development of the next generation of public health leaders.",
-      "caveats": "small sample (N<100), single-center, self-reported outcomes, observational design",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Narrow education policy topic; no empirical data; limited audience fit.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Higher education",
-          "headline": "Online Public Health Doctoral Programs Are Booming \u2014 But Their Mentoring Models Are Stuck in the Past",
-          "hook": "Tens of thousands of working public health professionals are pursuing doctorates online, but the mentoring they receive was designed for full-time lab-based PhD students.",
-          "pitch_angle": "A new framework from the University of South Florida argues that mid-career DrPH students need a fundamentally different kind of faculty support \u2014 one built around professional coaching rather than academic gatekeeping. With public health workforce shortages deepening, getting doctoral mentoring right has real stakes beyond the classroom."
-        }
-      ],
-      "run_date": "2026-07-08",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -3995,33 +3701,6 @@
       "status": "new"
     },
     {
-      "pmid": "42386446",
-      "headline": "Retraction: 2022 Review on Nanomaterials in Plants Pulled From Major Environmental Journal",
-      "journal": "The Science of the Total Environment",
-      "pubdate": "2026 Jul 1",
-      "doi": "10.1016/j.scitotenv.2026.182014",
-      "groundbreaking": "",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "The journal Science of the Total Environment issued a retraction notice for a 2022 review article on the fate, bioaccumulation, and toxicity of engineered nanomaterials in plants. The original article (DOI: 10.1016/j.scitotenv.2021.152249) was published in March 2022. No explanation for the retraction is provided in the notice.",
-      "why_it_matters": "Retractions of environmental toxicology reviews can affect regulatory and scientific decisions that relied on the withdrawn findings, underscoring the importance of post-publication scrutiny in high-stakes fields.",
-      "caveats": "None identified",
-      "fact_check_note": "The retraction notice provides no stated reason for retraction; this digest cannot confirm the basis for withdrawal.",
-      "relevance_score": 3,
-      "relevance_score_reason": "Retraction notice only; no new scientific findings; limited pitch value.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "A Widely Cited Nanomaterials-in-Plants Review Has Been Retracted",
-          "hook": "A 2022 review on how engineered nanomaterials accumulate and cause harm in plants has been pulled from a major environmental journal with no public explanation.",
-          "pitch_angle": "The retraction of a review article that synthesized research on nanomaterial toxicity in plants highlights ongoing concerns about the reliability of published literature in environmental science. Without a stated reason for withdrawal, researchers who cited the paper face uncertainty about which conclusions, if any, remain valid."
-        }
-      ],
-      "run_date": "2026-07-08",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
       "pmid": "42386996",
       "headline": "A single gene linked to autism and epilepsy in 25 patients \u2014 and seizure-like behavior in fish \u2014 is officially a disorder",
       "journal": "European Journal of Human Genetics",
@@ -4052,60 +3731,6 @@
       "run_date": "2026-07-08",
       "category": "Genetics & Molecular Biology",
       "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42383552",
-      "headline": "Computer models reveal how carbon arranges itself inside heat-resistant silicon ceramics",
-      "journal": "Physical Chemistry Chemical Physics (PCCP)",
-      "pubdate": "2026 Jul 1",
-      "doi": "10.1039/d5cp04954g",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers used first-principles molecular dynamics simulations to model the atomic-scale structure of a silicon carbonitride (SiCNH) ceramic derived from polysilazane precursors. Seven computational models with varying carbon-phase organizations were generated and validated against experimental pair distribution functions. Results suggest the free-carbon phase in this composition consists of poorly spatially correlated carbon layers, rather than highly organized graphitic layers or percolation networks.",
-      "why_it_matters": "Understanding how carbon organizes within polymer-derived ceramics could guide the design of next-generation heat-resistant or electronic materials used in aerospace and energy applications.",
-      "caveats": "purely computational with no validation beyond pair distribution function comparison, single composition studied",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Highly specialized materials science; limited public health or environmental hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / Materials science/technology",
-          "headline": "Inside the Ceramics That Could Survive Extreme Heat: It's All in the Carbon",
-          "hook": "A new computational study finds that the carbon hidden inside next-gen heat-resistant ceramics isn't organized the way scientists assumed.",
-          "pitch_angle": "Using atomic-scale simulations, researchers mapped how carbon phases form in silicon carbonitride ceramics, finding disordered layers rather than neat graphitic structures. This insight could reshape how engineers tune these materials for aerospace and energy technologies that demand extreme thermal stability."
-        }
-      ],
-      "run_date": "2026-07-08",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42018424",
-      "headline": "Statistics journal issues correction to psychometric methods paper",
-      "journal": "Epidemiology (Cambridge, Mass.)",
-      "pubdate": "2026 Jul 1",
-      "doi": "10.1097/EDE.0000000000001990",
-      "groundbreaking": "",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This is a published erratum correcting a prior article on novel psychometric indicator assessments \u2014 specifically the Relative Excess Correlation and associated matrices. No new data or findings are presented. The notice corrects the original publication by VanderWeele and Padgett.",
-      "why_it_matters": "Methodological corrections in epidemiology can affect how researchers interpret and apply statistical tools across public health studies.",
-      "caveats": "secondary analysis",
-      "fact_check_note": "",
-      "relevance_score": 2,
-      "relevance_score_reason": "Erratum only; no new findings, minimal general audience interest.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "A Statistics Correction That Reminds Us: Methods Matter",
-          "hook": "Even technical corrections in epidemiology methods papers can ripple through the studies that rely on them.",
-          "pitch_angle": "This erratum to a psychometric methods paper underscores how foundational statistical tools must be rigorously validated. Errors in widely-used epidemiological metrics can propagate through downstream research if uncorrected."
-        }
-      ],
-      "run_date": "2026-07-08",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -5012,33 +4637,6 @@
       "status": "new"
     },
     {
-      "pmid": "39569592",
-      "headline": "Two New Mexico universities team up to fix a leaky public health workforce pipeline",
-      "journal": "Health Promotion Practice",
-      "pubdate": "2026 Jul",
-      "doi": "10.1177/15248399241298791",
-      "groundbreaking": "",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Faculty from the University of New Mexico and New Mexico State University describe a collaborative fieldwork model launched in 2022 to strengthen applied public health training across two geographically dispersed institutions with limited resources. The partnership focused on sharing fieldwork sites, supervisors, and institutional support to improve student placement and program quality. Authors emphasize the model's potential to improve workforce participation among students from underrepresented backgrounds.",
-      "why_it_matters": "Scalable inter-university fieldwork partnerships in under-resourced states could help address chronic public health workforce shortages, particularly in rural and underserved communities.",
-      "caveats": "observational design, single-center, small sample (N<100)",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Workforce education topic; descriptive report with no original data or outcome measures.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "Can Two Universities Share Their Way to a Stronger Public Health Workforce?",
-          "hook": "In a state stretched thin on public health resources, two New Mexico universities are pooling fieldwork sites and supervisors to train the next generation of practitioners.",
-          "pitch_angle": "A nascent collaboration between UNM and NMSU offers an early model for how resource-constrained institutions in geographically large states might cooperate to close gaps in public health training pipelines. The initiative focuses especially on students from underrepresented backgrounds, a critical consideration as the U.S. public health workforce faces ongoing shortfalls."
-        }
-      ],
-      "run_date": "2026-07-08",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "41936456",
       "headline": "Shrinking donor funding threatens to reverse decades of vaccine progress across Africa",
       "journal": "Tropical Medicine & International Health",
@@ -5457,33 +5055,6 @@
           "headline": "Hidden Genes in the Brain's Best-Known Growth Factor Locus May Shape Schizophrenia Risk",
           "hook": "Scientists have found two genes that nobody knew existed tucked inside one of the most studied regions of the genome \u2014 and both appear connected to schizophrenia.",
           "pitch_angle": "The BDNF gene has been central to neuroscience for decades, yet researchers just discovered two novel transcripts in the same locus that respond to brain activity and are associated with schizophrenia risk, suggesting the human genome still holds functional surprises even in its most-studied corners."
-        }
-      ],
-      "run_date": "2026-07-07",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42377593",
-      "headline": "A silicon carbide sheet just a few atoms thick can sniff out alcohol molecules with high sensitivity",
-      "journal": "Journal of Molecular Modeling",
-      "pubdate": "2026 Jun 30",
-      "doi": "10.1007/s00894-026-06826-0",
-      "groundbreaking": "None identified",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Using computational first-principles simulations via the CASTEP package, researchers modeled how a two-dimensional bilayer of silicon carbide (SiC) responds to three alcohol molecules \u2014 ethanol, methanol, and acetone. Adsorption of ethanol and acetone triggered a shift from indirect to direct band gap in the material, with significant changes in electronic density of states and optical properties. The findings suggest 2D bilayer SiC could serve as a sensitive electronic sensor for ethanol and acetone, though not yet validated experimentally.",
-      "why_it_matters": "Ultrathin semiconductor sensors capable of detecting alcohol vapors at the molecular level could eventually contribute to breathalyzer technology or industrial safety monitoring, if validated experimentally.",
-      "caveats": "animal or cell study, observational design",
-      "fact_check_note": "This is a purely computational study with no experimental validation reported; the abstract acknowledges agreement with 'previously reported theoretical and experimental studies' by others but presents no new experimental data.",
-      "relevance_score": 3,
-      "relevance_score_reason": "Purely computational, no experimental validation, limited general audience relevance.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired",
-          "headline": "A Virtual Experiment Shows an Atom-Thin Material Could Detect Alcohol in the Air",
-          "hook": "Computer simulations suggest a two-dimensional form of silicon carbide changes its electronic fingerprint when exposed to alcohol vapors \u2014 a potential path to next-generation chemical sensors.",
-          "pitch_angle": "Researchers used quantum mechanical modeling to show that bilayer silicon carbide is particularly sensitive to ethanol and acetone at the atomic scale, raising the possibility of sensors far smaller and more sensitive than today's technology \u2014 though experimental proof remains the critical next step."
         }
       ],
       "run_date": "2026-07-07",
@@ -6387,33 +5958,6 @@
           "headline": "How Two Losing Strategies Can Mysteriously Add Up to a Win \u2014 and Why Nature May Have Known All Along",
           "hook": "A counterintuitive mathematical paradox suggests that alternating between two losing strategies can produce a net gain \u2014 and it may help explain collective intelligence in biological and social systems.",
           "pitch_angle": "Parrondo's paradox, long a curiosity in game theory, is being reframed as a potential framework for understanding how organisms and groups make surprisingly smart decisions by switching between individually failing approaches. If validated empirically, the model could change how scientists think about cooperation, adaptation, and decision-making across biology and social science."
-        }
-      ],
-      "run_date": "2026-07-07",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42102767",
-      "headline": "A little-studied crystal compound shows surprising promise for converting waste heat into electricity",
-      "journal": "Journal of Molecular Graphics & Modelling",
-      "pubdate": "2026 Jul",
-      "doi": "10.1016/j.jmgm.2026.109433",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Using density functional theory and first-principles calculations, researchers modeled the electronic, optical, and thermoelectric properties of the Zintl-phase compound CsCd4As3. The computational study found the material has a direct bandgap of 1.120 eV and can absorb light from visible to near-infrared wavelengths, suggesting dual potential in optoelectronics and energy harvesting. Thermoelectric transport modeling yielded a figure of merit (ZT) of 0.74 at high temperatures, indicating meaningful but not yet top-tier heat-to-electricity conversion efficiency.",
-      "why_it_matters": "Identifying new materials capable of efficiently converting waste heat into electricity could contribute to reducing industrial energy losses and lowering carbon emissions.",
-      "caveats": "purely computational with no validation, animal or cell study",
-      "fact_check_note": "",
-      "relevance_score": 3,
-      "relevance_score_reason": "Purely computational materials science; no empirical validation; limited public health or environmental hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / General science",
-          "headline": "A Newly Mapped Crystal Could Help Factories Stop Wasting Heat \u2014 If It Works Outside a Computer",
-          "hook": "A theoretical analysis of an obscure crystal compound suggests it could absorb sunlight and convert waste heat into usable electricity \u2014 but all the evidence so far exists only in equations.",
-          "pitch_angle": "Computational modeling of CsCd4As3 reveals promising thermoelectric and optical properties, raising the possibility of a material that could one day recover energy from industrial heat loss. The findings are entirely theoretical and need experimental verification, but they add to a growing search for cheaper, more abundant alternatives to rare thermoelectric materials."
         }
       ],
       "run_date": "2026-07-07",
@@ -7997,111 +7541,6 @@
       "status": "new"
     },
     {
-      "pmid": "41657275",
-      "headline": "A Comprehensive Review of Marketed KRAS Inhibitors and Degraders: Challenges and Opportunities.",
-      "journal": "Medicinal research reviews",
-      "pubdate": "2026 Jul",
-      "doi": "10.1002/med.70035",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-07-07",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42068525",
-      "headline": "Etripamil: First Approval.",
-      "journal": "Drugs",
-      "pubdate": "2026 Jul",
-      "doi": "10.1007/s40265-026-02321-1",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-07-07",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41259072",
-      "headline": "Dectin-1 receptor-targeted \u03b2-glucan microparticles as dry powder inhalation system - a novel strategy to improve lung pharmacokinetics of rifampicin.",
-      "journal": "Journal of drug targeting",
-      "pubdate": "2026 Jul",
-      "doi": "10.1080/1061186X.2025.2592158",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-07-07",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42107050",
-      "headline": "A review on artificial intelligence in pharmaceutical sciences: opportunities and challenges.",
-      "journal": "Drug development and industrial pharmacy",
-      "pubdate": "2026 Jul",
-      "doi": "10.1080/03639045.2026.2670435",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-07-07",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "41991729",
-      "headline": "Novel endogenous protein-based strategies to inhibit clinically relevant bacterial AB-type toxins including pertussis toxin.",
-      "journal": "Archives of toxicology",
-      "pubdate": "2026 Jul",
-      "doi": "10.1007/s00204-026-04372-5",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-07-07",
-      "category": "Pharmacology & Drug Therapy",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42381381",
       "headline": "Exosomes harvested from immune cells ferry a herbal compound directly to sepsis-damaged livers in mice",
       "journal": "Drug Delivery",
@@ -9413,33 +8852,6 @@
       "run_date": "2026-06-29",
       "category": "Environmental Health",
       "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42340566",
-      "headline": "Chemists build a glowing zinc crystal that shines bright green \u2014 and it could light up future display technologies",
-      "journal": "Journal of Fluorescence",
-      "pubdate": "2026 Jun 24",
-      "doi": "10.1007/s10895-026-04833-1",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers synthesized a novel trinuclear zinc(II) complex using a Schiff base ligand derived from o-phenylenediamine and 5-fluorosalicylaldehyde, characterized via single-crystal X-ray diffraction and multiple spectroscopic methods. The complex forms a two-dimensional supramolecular structure through intermolecular hydrogen bonding. It exhibits strong green fluorescence emission near 500 nm, suggesting potential applications in photoluminescent materials.",
-      "why_it_matters": "Novel fluorescent metal complexes with tunable emission properties are foundational building blocks for next-generation display, sensing, and lighting technologies.",
-      "caveats": "animal or cell study",
-      "fact_check_note": "The 'First-in-class human study' groundbreaking tag does not apply \u2014 this is a materials chemistry study with no human subjects. Groundbreaking tag corrected: this is a novel compound synthesis with potential materials applications only.",
-      "relevance_score": 3,
-      "relevance_score_reason": "Materials chemistry; no environmental, health, or public interest hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "A New Zinc Crystal Glows Green \u2014 and Could Help Build Better Displays",
-          "hook": "A newly synthesized zinc complex emits intense green light at a wavelength useful for photoluminescent devices, adding to a growing toolkit of metal-based fluorescent materials.",
-          "pitch_angle": "Chinese chemists have created a trinuclear zinc complex that self-assembles into a flat supramolecular sheet and fluoresces strongly near 500 nm, a property relevant to LED and sensing applications. While still at the basic-research stage, it expands the library of tunable Schiff base complexes available for materials engineering."
-        }
-      ],
-      "run_date": "2026-06-29",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
       "status": "new"
     },
     {
@@ -10823,26 +10235,6 @@
       "status": "new"
     },
     {
-      "pmid": "42333623",
-      "headline": "Study 3 abstract unavailable \u2014 insufficient data to summarize",
-      "journal": "Paediatric and Perinatal Epidemiology",
-      "pubdate": "2026 Jun 22",
-      "doi": "10.1111/ppe.70172",
-      "groundbreaking": "",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "The abstract for this study was not provided in the submission. No findings, methods, sample size, or conclusions can be verified or summarized.",
-      "why_it_matters": "Unable to assess without abstract content.",
-      "caveats": "Abstract not provided \u2014 no assessment possible",
-      "fact_check_note": "No abstract was supplied for this PMID; all fields requiring abstract verification are left incomplete.",
-      "relevance_score": 3,
-      "relevance_score_reason": "Cannot score without abstract; topic may be relevant to perinatal epidemiology.",
-      "pitch_angles": [],
-      "run_date": "2026-06-29",
-      "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42346151",
       "headline": "An overlooked nuclear protein may be quietly helping brain tumors resist treatment",
       "journal": "Cells",
@@ -10953,33 +10345,6 @@
       ],
       "run_date": "2026-06-29",
       "category": "Public Health & Epidemiology",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42332949",
-      "headline": "Hospital-acquired infections remain stubbornly difficult to prevent, experts warn",
-      "journal": "Current Opinion in Infectious Diseases",
-      "pubdate": "2026 Aug 1",
-      "doi": "10.1097/QCO.0000000000001207",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This is an editorial commentary rather than an original research study, offering no abstract with empirical data. It addresses ongoing systemic challenges in preventing healthcare-associated infections. No study design, sample size, or findings are available for independent verification.",
-      "why_it_matters": "Healthcare-associated infections affect millions of patients annually and are a leading driver of antibiotic resistance, making commentary from hospital epidemiologists on persistent prevention gaps relevant to public health policy.",
-      "caveats": "No original data \u2014 editorial/commentary only",
-      "fact_check_note": "No abstract with empirical claims available; summary reflects editorial nature of the piece.",
-      "relevance_score": 3,
-      "relevance_score_reason": "Editorial with no data; public health topic but nothing new to report.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "Hospitals Still Can't Solve the Infection Problem They Created",
-          "hook": "Despite decades of hand-hygiene campaigns and sterilization protocols, healthcare-associated infections continue to sicken and kill patients in facilities meant to heal them.",
-          "pitch_angle": "A hospital epidemiologist's commentary highlights that structural and behavioral barriers continue to undermine infection prevention in healthcare settings. The piece fits a broader story about why patient safety improvements in hospitals have plateaued despite enormous investment."
-        }
-      ],
-      "run_date": "2026-06-29",
-      "category": "Infectious Disease",
       "chunk": "1/2",
       "status": "new"
     },
@@ -11500,33 +10865,6 @@
       "status": "new"
     },
     {
-      "pmid": "42323883",
-      "headline": "Integrity flag raised on cancer drug resistance study as journal issues expression of concern",
-      "journal": "Molecular Oncology",
-      "pubdate": "2026 Jun 21",
-      "doi": "10.1002/1878-0261.70294",
-      "groundbreaking": "None identified",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Molecular Oncology has issued an expression of concern for a 2024 paper describing a novel 45-kDa JAK2 variant associated with kinase inhibitor resistance. No authors are listed on the concern notice, and no specific details about the nature of the concern are provided in the record. The original study had described a potentially new mechanism of resistance to JAK2-targeted cancer therapies.",
-      "why_it_matters": "Expressions of concern signal unresolved questions about data reliability in research that could influence cancer drug development strategies.",
-      "caveats": "Expression of concern \u2014 underlying study reliability unverified",
-      "fact_check_note": "This record is an expression of concern, not a primary research article. No findings to verify; summary reflects only what the notice itself states.",
-      "relevance_score": 3,
-      "relevance_score_reason": "Editorial notice only; no new findings; limited journalist utility.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / science journalism trade",
-          "headline": "A Cancer Drug-Resistance Finding Is Under Scrutiny \u2014 Here's What That Means",
-          "hook": "A journal has flagged a study on how cancer cells evade JAK2 inhibitors, raising questions about a potentially important resistance mechanism.",
-          "pitch_angle": "Expressions of concern are an underreported tool in scientific publishing; this case highlights how quickly uncertain findings can enter the cancer research pipeline before integrity questions are resolved."
-        }
-      ],
-      "run_date": "2026-06-28",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
-      "status": "new"
-    },
-    {
       "pmid": "42323964",
       "headline": "The race to replace meat: A sweeping review maps the science \u2014 and stumbling blocks \u2014 of alternative proteins",
       "journal": "Biotechnology Advances",
@@ -12025,36 +11363,6 @@
       "status": "new"
     },
     {
-      "pmid": "42319967",
-      "headline": "A decade of atom-scale spin control: physicists map out how quantum bits might be steered one electron at a time",
-      "journal": "Journal of Physics: Condensed Matter",
-      "pubdate": "2026 Jun 19",
-      "doi": "10.1088/1361-648X/ae76a6",
-      "groundbreaking": "None identified",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "This is a theoretical review article summarising ten years of advances in electron spin resonance scanning tunnelling microscopy (ESR-STM), a technique that enables spectroscopic probing and coherent manipulation of individual atomic-scale magnetic spins using purely electrical methods without oscillating magnetic fields. The authors discuss the fundamental mechanisms \u2014 Heisenberg exchange, Kondo scattering, and Anderson impurity models \u2014 that may underlie the technique, validate theoretical predictions against published experimental data, and review prospects for multi-qubit operations and hyperfine-resolved nuclear spin control. No new experimental data are presented.",
-      "why_it_matters": "Coherent control of individual electron and nuclear spins at the atomic scale is a foundational capability for quantum computing and quantum sensing; understanding the theoretical mechanisms behind ESR-STM could help guide the design of future qubit architectures. However, practical quantum computing applications remain distant from the phenomena described.",
-      "caveats": "purely computational with no validation, review article (no new experimental data), highly specialised basic physics",
-      "fact_check_note": "This is a theoretical review, not an experimental study. No new N, effect sizes, or empirical findings are reported. Summary accurately reflects the scope described in the abstract.",
-      "excluded": false,
-      "relevance_score": 3,
-      "relevance_score_reason": "A specialised theoretical physics review with no new experimental findings and no direct environmental health, public health, or everyday life relevance; scores very low for general science journalism audiences despite the quantum computing context.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired",
-          "headline": "Scientists Can Now Nudge a Single Atom's Spin \u2014 And It Could Be the Seed of a New Kind of Qubit",
-          "hook": "A decade-spanning review of a technique that manipulates individual electron spins using only electric fields \u2014 no oscillating magnets needed \u2014 maps out the theoretical foundations of what could become a new route to quantum bits.",
-          "why_it_fits": "Wired's quantum computing coverage tracks incremental but foundational advances in qubit control; readers drawn to hardware-layer quantum physics would find the atom-scale electrical spin manipulation angle technically engaging.",
-          "pitch_angle": "Deep inside a scanning tunnelling microscope, researchers have spent a decade learning to flip single electron spins using only an electric field \u2014 a feat with significant implications for how future quantum computers might store and process information at the atomic scale. A new theoretical review synthesises what physicists now understand about the underlying mechanisms and explores how the technique might be extended to control multiple coupled qubits and even atomic nuclei. The work is still foundational science, but it charts a plausible \u2014 if distant \u2014 path toward atom-by-atom qubit engineering.",
-          "caveats_to_flag": "This is a theoretical review, not new experimental work; practical quantum computing applications remain speculative; the field operates at extremely low temperatures in highly controlled laboratory environments far from real-world deployment."
-        }
-      ],
-      "run_date": "2026-06-26",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
       "pmid": "42319144",
       "headline": "Water molecules trapped inside battery crystals could unlock cheaper, safer calcium-ion batteries",
       "journal": "Physical Chemistry Chemical Physics (PCCP)",
@@ -12264,36 +11572,6 @@
       "run_date": "2026-06-26",
       "category": "Infectious Disease",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42319666",
-      "headline": "Computational Study Designs New Peptides to Target TB Drug Resistance \u2014 But No Lab Tests Yet",
-      "journal": "Probiotics and Antimicrobial Proteins",
-      "pubdate": "2026 Jun 19",
-      "doi": "10.1007/s12602-026-11086-8",
-      "groundbreaking": "None identified",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Indian researchers computationally designed a library of 15 antimicrobial peptides derived from modifications of the human host-defense peptide LL-37, targeting KatG \u2014 the Mycobacterium tuberculosis enzyme whose mutations drive isoniazid resistance in multidrug-resistant TB. Molecular docking identified three top candidates (P3, A5\u03b6, A4\u03b7) with strong predicted binding affinity to the KatG active site, and 100-nanosecond molecular dynamics simulations suggested favorable stability, particularly for peptide P3. In silico safety profiling indicated non-toxic, non-allergenic properties, but no wet-lab, cell-culture, or animal validation was performed.",
-      "why_it_matters": "Multidrug-resistant tuberculosis remains a global health emergency, and KatG-mediated isoniazid resistance is a primary driver; computationally guided peptide design could accelerate early-stage identification of novel candidates, though experimental validation is essential before any conclusions can be drawn.",
-      "caveats": "purely computational with no validation, animal or cell study, no experimental data",
-      "fact_check_note": "Abstract contains no wet-lab, cell, or animal data. All findings are in silico (docking and MD simulation). Accurately represented as computational only.",
-      "excluded": false,
-      "relevance_score": 3,
-      "relevance_score_reason": "Purely computational study with no experimental validation addressing an important TB drug resistance target \u2014 antibiotic resistance topic provides slight relevance, but the absence of any wet-lab data and high speculative nature make it very weak for science journalism.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "Computers Designed New Molecules to Fight Drug-Resistant TB \u2014 Now Someone Has to Test Them",
-          "hook": "A computational approach has generated promising peptide candidates against a key tuberculosis drug-resistance mechanism, but the molecules exist only in simulation \u2014 no lab experiments have been done yet.",
-          "why_it_fits": "Science-literate general readers following antibiotic resistance would understand this as a very early-stage proof-of-concept, useful primarily as context within a broader feature on computational drug discovery pipelines.",
-          "pitch_angle": "Drug-resistant tuberculosis kills hundreds of thousands of people each year, and one of its main drivers is mutations in a bacterial enzyme called KatG that deactivates the front-line antibiotic isoniazid. Researchers used computational modeling to design new antimicrobial peptides that could theoretically block KatG's active site, finding three candidates with favorable predicted properties. The work is entirely in silico \u2014 no molecules have been synthesized or tested \u2014 but illustrates how AI-assisted design is being used to generate hypotheses in the fight against resistant TB.",
-          "caveats_to_flag": "No experimental validation of any kind; computational binding predictions frequently do not translate to biological activity; this is hypothesis generation, not a drug discovery result."
-        }
-      ],
-      "run_date": "2026-06-26",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
       "status": "new"
     },
     {
@@ -12542,27 +11820,6 @@
       "run_date": "2026-06-26",
       "category": "Infectious Disease",
       "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42332571",
-      "headline": "Emergence of two novel HIV-1 Circulating Recombinant Forms (CRF190_0708 and CRF191_0708): molecular characterization and clinical insights from a five-year study in Yunnan, China.",
-      "journal": "BMC microbiology",
-      "pubdate": "2026 Jun 23",
-      "doi": "10.1186/s12866-026-05323-x",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-06-25",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
       "status": "new"
     },
     {
@@ -12868,66 +12125,6 @@
       "status": "new"
     },
     {
-      "pmid": "42312870",
-      "headline": "Computationally designed tin-based monolayers outperform leading 2D semiconductors for next-generation transistors",
-      "journal": "Physical Chemistry Chemical Physics (PCCP)",
-      "pubdate": "2026 Jun 18",
-      "doi": "10.1039/d6cp01686c",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Using first-principles density functional theory calculations, researchers predicted the structural, electronic, mechanical, and charge-transport properties of two novel two-dimensional monolayer materials \u2014 SnSi\u2082N\u2084 and SnGe\u2082N\u2084 \u2014 belonging to the MA\u2082Z\u2084 material family. Calculations suggest these materials have semiconductor band gaps of 3.36 eV and 2.13 eV respectively, high tensile strength with critical strain exceeding 27%, and electron mobilities up to 10\u00b3 cm\u00b2 V\u207b\u00b9 s\u207b\u00b9 \u2014 reportedly surpassing alpha-phase molybdenum- and tungsten-based analogues. No synthesis or experimental validation is reported; all findings are computational predictions.",
-      "why_it_matters": "As silicon-based transistors approach their physical scaling limits, identifying two-dimensional semiconductors with superior electron mobility and mechanical resilience is a key step toward next-generation flexible electronics and high-performance computing \u2014 though experimental confirmation remains essential.",
-      "caveats": "purely computational with no validation, animal or cell study",
-      "fact_check_note": "Abstract explicitly states these are first-principles predictions with no experimental synthesis or device testing reported; summary and caveats reflect this accurately.",
-      "excluded": false,
-      "relevance_score": 3,
-      "relevance_score_reason": "Purely computational materials science study with no experimental validation and no direct environmental, health, or public interest hook; low priority for general science journalism outlets.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Wired",
-          "headline": "On Paper, These Tin-Based Atom-Thick Sheets Could Be Better Transistor Materials Than Anything We Have Now",
-          "hook": "Computer simulations predict that two newly designed single-atom-thick materials could shuttle electrons faster than the best 2D semiconductors currently known \u2014 potentially pointing a way past the limits of silicon.",
-          "why_it_fits": "Wired readers follow the semiconductor materials race closely, particularly as chipmakers publicly grapple with post-silicon transistor design challenges.",
-          "pitch_angle": "The semiconductor industry's decades-long reliance on silicon is running into hard physical limits, and the search for two-dimensional replacement materials is intensifying. Researchers have now used quantum mechanical calculations to predict that two tin-nitrogen monolayers could outperform existing candidates in the MA\u2082Z\u2084 material family on electron mobility \u2014 a critical transistor performance metric. The catch: these materials exist only in simulation so far, and the gap between computational prediction and a working chip is substantial.",
-          "caveats_to_flag": "Entirely theoretical \u2014 no synthesis attempted; computational predictions frequently do not survive experimental testing; no device performance data."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42313201",
-      "headline": "Adding a single manganese atom to a carbon nanomaterial reshapes its electronic behavior \u2014 with implications for future chips",
-      "journal": "Journal of Molecular Modeling",
-      "pubdate": "2026 Jun 18",
-      "doi": "10.1007/s00894-026-06814-4",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Using density functional theory (DFT) calculations with a Hubbard U correction, researchers computationally modeled the structural, vibrational, and electronic properties of a small nanographene fragment (C\u2081\u2088H\u2081\u2082) before and after doping with a single manganese atom. They found that manganese incorporation caused only minor structural distortion while preserving the aromatic carbon framework, but significantly redistributed charge around the doping site and introduced localized electronic states that could enhance the material's suitability for nanoelectronics. Infrared spectral analysis confirmed the dynamical stability of both pristine and doped configurations.",
-      "why_it_matters": "As silicon-based transistors approach their physical size limits, carbon nanomaterials doped with transition metals are being explored as candidates for next-generation nanoelectronics; understanding how individual dopant atoms alter electronic structure at the quantum level is a foundational step in that engineering effort.",
-      "caveats": "purely computational with no validation, single-author study, animal or cell study",
-      "fact_check_note": "Study is entirely computational (DFT simulations); no experimental synthesis or measurement is reported. Single-author publication noted. Summary reflects this accurately.",
-      "excluded": false,
-      "relevance_score": 3,
-      "relevance_score_reason": "Purely computational single-author study with no experimental validation and a highly specialized nanoelectronics focus offers a weak hook for general science journalism audiences.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "One Atom of Manganese Changes Everything Inside a Carbon Nanostructure",
-          "hook": "Swapping a single carbon atom in a graphene fragment for manganese dramatically rewires the material's electronic personality \u2014 without breaking its structure.",
-          "why_it_fits": "General science readers interested in the future of computing and materials science can engage with the counterintuitive idea that one atom can redesign a material's behavior.",
-          "pitch_angle": "Researchers used quantum mechanical simulations to show that inserting a single manganese atom into a tiny graphene fragment reshapes how electrons distribute themselves across the material, potentially making it more useful for nanoscale electronics. The host carbon structure stays intact, meaning the chemical trick is non-destructive \u2014 an important practical consideration. While the work is purely theoretical at this stage, it adds to a growing blueprint for designing atom-by-atom the next generation of materials that may eventually replace silicon in ultra-miniaturized devices.",
-          "caveats_to_flag": "Entirely computational study with no laboratory synthesis or measurement; results require experimental validation before practical conclusions can be drawn."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
       "pmid": "42315652",
       "headline": "A metal-organic framework material detects gout-linked uric acid in under three minutes at room temperature",
       "journal": "Mikrochimica Acta",
@@ -12950,36 +12147,6 @@
           "why_it_fits": "Scientific American readers are drawn to materials science innovations with concrete health applications, especially those with point-of-care potential.",
           "pitch_angle": "Gout is one of the most common and undertreated forms of inflammatory arthritis, partly because blood uric acid monitoring requires lab visits. Researchers have now engineered a cobalt-based metal-organic framework that changes color in the presence of uric acid, forming the core of a portable sensor that works at room temperature. While still a bench-top proof of concept, the approach could eventually translate into affordable home-testing devices for the roughly 41 million adults globally living with gout or hyperuricemia.",
           "caveats_to_flag": "No human samples tested; detection performance demonstrated only in controlled lab conditions; significant engineering and regulatory steps remain before any clinical application."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42312996",
-      "headline": "Zinc and calcium dopants improve how bone-like coatings stick to dissolving metal implants",
-      "journal": "Physical Chemistry Chemical Physics (PCCP)",
-      "pubdate": "2026 Jun 18",
-      "doi": "10.1039/d6cp01070a",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers at Chalmers University of Technology used density functional theory (DFT) computational modeling to study how hydroxyapatite (HA) \u2014 the mineral found in bone \u2014 adheres to magnesium surfaces intended for biodegradable orthopedic implants. They modeled pure magnesium and magnesium surfaces doped with trace amounts of calcium or zinc. Both calcium and zinc doping were found to generally improve HA adsorption, though in a configuration-dependent way; notably, calcium dopants in certain positions migrated out of the magnesium surface and into the HA layer, leaving atomic vacancies behind.",
-      "why_it_matters": "Biodegradable magnesium implants that naturally dissolve in the body after healing could eliminate the need for surgical hardware removal, but their surfaces must bond reliably with bone tissue; these findings suggest that precise dopant selection and placement could be a key lever in implant design.",
-      "caveats": "animal or cell study, purely computational with no validation",
-      "fact_check_note": "Abstract describes a computational (DFT) study only \u2014 no experimental validation data reported. 'First-in-class human study' label in groundbreaking field removed from consideration; label was left as placeholder per schema requirement but does not apply \u2014 this is a purely computational materials science study.",
-      "excluded": false,
-      "relevance_score": 3,
-      "relevance_score_reason": "Purely computational materials science study with no human subjects, no experimental validation, and no direct public health or environmental hook \u2014 narrow specialist interest unlikely to appeal to general science journalism audiences.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / science-forward engineering outlets",
-          "headline": "The Implant That Disappears: How Atomic-Scale Tweaks Could Make Dissolving Bone Hardware a Reality",
-          "hook": "A biodegradable metal implant that vanishes after your bone heals sounds like science fiction \u2014 but the chemistry of making it stick is being solved one atom at a time.",
-          "why_it_fits": "Readers interested in materials science and the future of medicine would find the concept of dissolving implants compelling, even if the underlying study is early-stage.",
-          "pitch_angle": "Magnesium-based implants that biodegrade inside the body could one day replace permanent metal hardware, sparing patients a second surgery. Researchers are now using quantum-level computer modeling to understand how to coat these implants with hydroxyapatite \u2014 the same mineral that makes up bone \u2014 so they integrate properly before dissolving. This study finds that doping the magnesium with calcium or zinc at the atomic scale meaningfully changes how well the coating adheres, offering a roadmap for future implant engineering.",
-          "caveats_to_flag": "This is a purely theoretical/computational study with no experimental or clinical validation; findings are early-stage and have not been tested in lab or animal models, let alone humans."
         }
       ],
       "run_date": "2026-06-25",
@@ -13015,36 +12182,6 @@
       "run_date": "2026-06-25",
       "category": "Genetics & Molecular Biology",
       "chunk": "1/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42315353",
-      "headline": "A rare inherited eye disease takes on a new face: a single patient's mutation expands what doctors know about a little-understood retinal condition",
-      "journal": "Ophthalmic Genetics",
-      "pubdate": "2026 Jun 18",
-      "doi": "10.1080/13816810.2026.2674246",
-      "groundbreaking": "None identified",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Clinicians report a case of a 49-year-old man with progressive visual decline over four years who was found to carry a novel homozygous frameshift mutation in the TTLL5 gene (c.2429del, p.Lys810Argfs*35), causing adult-onset cone-rod dystrophy. Multimodal retinal imaging revealed parafoveal ellipsoid zone loss consistent with cone-rod dystrophy, alongside a characteristic 'solar flare' imaging pattern. The case adds a new mutation and clinical presentation to the sparse literature on TTLL5-associated retinal dystrophy, a rare inherited condition with fewer than a handful of previously documented cases.",
-      "why_it_matters": "Inherited retinal dystrophies are a heterogeneous group of conditions that collectively affect millions of people worldwide and are increasingly within reach of gene therapy approaches; expanding the known mutational and clinical spectrum of rare subtypes like TTLL5-associated disease supports earlier and more accurate genetic diagnosis.",
-      "caveats": "small sample (N<100), single-center, observational design, short follow-up",
-      "fact_check_note": "Abstract specifies N=1 (single case report); this is clearly reflected in the summary. No causal language used for gene-disease relationship beyond frameshift mutation identification.",
-      "excluded": false,
-      "relevance_score": 3,
-      "relevance_score_reason": "Single case report of a rare mutation in an uncommon retinal disease offers limited general-audience appeal or broader scientific significance beyond specialist genetics readership.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science",
-          "headline": "One Patient's Rare Mutation Adds a New Chapter to the Story of an Overlooked Eye Disease",
-          "hook": "A single genetic typo in one patient's DNA has widened what scientists know about a rare inherited blindness condition \u2014 illustrating how case reports still matter in the genomic era.",
-          "why_it_fits": "General science audiences with an interest in rare disease and genetics can appreciate the human scale of a case report while understanding its broader role in building the genomic knowledge base that enables future treatments.",
-          "pitch_angle": "TTLL5-associated retinal dystrophy is so rare that each new documented case meaningfully expands the medical literature. A new case report describes a 49-year-old man whose gradual vision loss was traced to a novel frameshift mutation in the TTLL5 gene \u2014 a protein involved in modifying cellular structures called cilia, which are critical to photoreceptor function. The case adds both a new mutation and a distinctive imaging pattern to the slim dossier on this condition, with implications for genetic counseling and the future design of gene therapies for inherited retinal diseases.",
-          "caveats_to_flag": "This is a single case report (N=1) and cannot establish prevalence, prognosis, or treatment efficacy for TTLL5-associated disease; findings are descriptive and hypothesis-generating only."
-        }
-      ],
-      "run_date": "2026-06-25",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "2/3",
       "status": "new"
     },
     {
@@ -13306,48 +12443,6 @@
           "caveats_to_flag": "This is an in vitro validation study; results must be confirmed in animal models and ultimately clinical trials before influencing treatment guidelines."
         }
       ],
-      "run_date": "2026-06-25",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42315490",
-      "headline": "Multi-copy aiiA genes encoding quorum-quenching enzymes in Bacillus thuringiensis: identification and functional characterization of the novel AHL-lactonase, AiiA2.",
-      "journal": "FEMS microbiology letters",
-      "pubdate": "2026 Jun 18",
-      "doi": "10.1093/femsle/fnag073",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
-      "run_date": "2026-06-25",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42315050",
-      "headline": "Bovine rotavirus exploits host arginine metabolism to facilitate replication: A novel antiviral strategy targeting the arginase-iNOS axis.",
-      "journal": "Microbial pathogenesis",
-      "pubdate": "2026 Jun 18",
-      "doi": "10.1016/j.micpath.2026.108639",
-      "groundbreaking": "Included for relevance",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "",
-      "why_it_matters": "",
-      "caveats": "",
-      "fact_check_note": "",
-      "excluded": false,
-      "relevance_score": 0,
-      "relevance_score_reason": "",
-      "pitch_angles": [],
       "run_date": "2026-06-25",
       "category": "Infectious Disease",
       "chunk": "1/2",
@@ -13961,36 +13056,6 @@
       "run_date": "2026-06-24",
       "category": "Genetics & Molecular Biology",
       "chunk": "2/3",
-      "status": "new"
-    },
-    {
-      "pmid": "42330701",
-      "headline": "A color-changing crystal that turns from green to red with heat could make industrial temperature monitoring visible to the naked eye",
-      "journal": "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy",
-      "pubdate": "2026 Jun 17",
-      "doi": "10.1016/j.saa.2026.128278",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not verified \u2014 SERPAPI unavailable",
-      "summary": "Researchers developed a new phosphor material \u2014 KMgScMo\u2083O\u2081\u2082 doped with ytterbium and holmium \u2014 that shifts its light emission from green to red as temperature rises from 298 K to 548 K, exploiting the material's unusual negative thermal expansion properties. The color change is reversible across heating and cooling cycles and can be read without instruments. In vitro characterization demonstrated particle sizes of 1\u20135 \u03bcm and aerosolization efficiency above 60%, and fluorescence intensity ratio measurements showed high temperature sensitivity with low uncertainty.",
-      "why_it_matters": "A reliable, naked-eye-readable temperature sensor that requires no electronic readout could have applications in industrial monitoring, electronics manufacturing, and potentially medical devices. The reversible color change mechanism also advances the science of anti-thermal-quenching materials.",
-      "caveats": "animal or cell study",
-      "fact_check_note": "The abstract does not mention particle size or aerosolization \u2014 those metrics appear in Study 7 (PMID 42337881) and were incorrectly included in the initial draft of this entry. Corrected: the abstract describes temperature range 298\u2013548 K, green-to-red color transition, fluorescence intensity ratio and CIE chromaticity coordinate ratio methods, and a ceramic heating element demonstration. No particle size or aerosolization data are present in this abstract.",
-      "excluded": false,
-      "relevance_score": 3,
-      "relevance_score_reason": "Technically novel materials science finding with some practical applications, but the topic is highly specialized, lacks direct public health or environmental relevance, and will have limited appeal for general science journalism outlets in this digest's scope.",
-      "pitch_angles": [
-        {
-          "publication_type": "General science / Science news brief",
-          "headline": "A New Crystal Changes Color With Temperature \u2014 No Thermometer Required",
-          "hook": "A phosphor material that glows green in the cold and shifts to red with heat could make temperature monitoring as simple as watching a color change.",
-          "why_it_fits": "A brief for science-curious general readers who enjoy materials science curiosities with tangible industrial applications.",
-          "pitch_angle": "Chinese and Japanese researchers have engineered a crystal that reversibly shifts its light emission from green to red as it heats up, exploiting an unusual property called negative thermal expansion to resist the signal degradation that normally plagues optical thermometers at high temperatures. The material can be read with the naked eye, raising the possibility of simple, electronics-free temperature sensors for industrial or electronic applications. While the research is at an early lab stage, it advances an active area of materials science focused on making temperature sensing more accessible and robust.",
-          "caveats_to_flag": "Laboratory demonstration only; no field testing or device integration has been conducted. Practical applications in industrial or medical settings remain speculative at this stage."
-        }
-      ],
-      "run_date": "2026-06-24",
-      "category": "Genetics & Molecular Biology",
-      "chunk": "3/3",
       "status": "new"
     },
     {
