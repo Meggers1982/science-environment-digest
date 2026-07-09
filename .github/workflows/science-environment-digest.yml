@@ -92,6 +92,8 @@ jobs:
           TOPIC_FOCUS:       ""
           FILTER_CATEGORY:   ${{ github.event.inputs.category }}
           DASHBOARD_URL:     ${{ vars.DASHBOARD_URL }}
+          SUPABASE_URL:      ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY:      ${{ secrets.SUPABASE_KEY }}
         run: python scripts/science_environment_digest.py
 
       - name: Upload results artifact
