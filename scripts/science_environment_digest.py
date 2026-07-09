@@ -479,8 +479,8 @@ relevance_score rubric (1–10): start at 5, then adjust:
   −2 purely computational with no validation
   −2 finding is tied to a single non-US/non-multinational region's diet, genetics, environment, or healthcare system in a way unlikely to resonate with or apply to a US/global audience (this does not apply to large multinational cohorts, WHO/global-health studies, or findings with a clear universal biological mechanism)
   Topic fit bonus: microplastics, climate and health, antibiotic resistance, cancer genetics, pandemic preparedness, PFAS/forever chemicals, gut microbiome, CRISPR and gene editing, drug pricing and access score higher
-
-{personalization}Return ONLY a valid JSON array, no other text.
+{personalization}
+Return ONLY a valid JSON array, no other text.
 
 Studies:
 {studies_block}"""
