@@ -137,7 +137,6 @@ jobs:
 
       - name: Merge results and send digest email
         env:
-          RESEND_API_KEY:  ${{ secrets.RESEND_API_KEY }}
           RECIPIENT_EMAIL: meagan.lea.morris@gmail.com
           DASHBOARD_URL:   ${{ vars.DASHBOARD_URL }}
         run: python scripts/merge_results.py
