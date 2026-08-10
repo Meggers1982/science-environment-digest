@@ -463,7 +463,7 @@ Rules for content:
 - For infectious disease: note whether findings are specific to a pathogen, strain, or outbreak context
 - For pharmacology: note whether findings are in vitro, animal, or human trials — this is critical
 - Animal and cell studies are NOT automatically excluded here (unlike medical digests) — they may be scientifically significant — but must be clearly labeled and scored lower
-- Flag (in caveats) when a finding is closely tied to one non-US region's specific context — e.g. a soy-consumption pattern specific to rural China, or a water-quality issue specific to Iran — and unlikely to generalize to a US/global readership
+- If a finding is closely tied to one non-US/non-multinational region's specific context — e.g. a soy-consumption pattern specific to rural China, or a water-quality issue specific to Iran — and unlikely to generalize to a US/global readership: set "excluded": true, headline "EXCLUDED: narrow to single region with no global relevance", relevance_score 0 (this does not apply to large multinational cohorts, WHO/global-health studies, or findings with a clear universal biological mechanism — those should still be scored normally, with the region noted in caveats)
 - Never use: breakthrough, cure, reverses, eliminates, proven to prevent
 - Always use: suggests, found that, associated with, early evidence indicates
 - No causal language for observational studies
@@ -477,7 +477,6 @@ relevance_score rubric (1–10): start at 5, then adjust:
   −1 per major caveat
   −1 animal or cell study (not excluded, but lower priority for general audience)
   −2 purely computational with no validation
-  −2 finding is tied to a single non-US/non-multinational region's diet, genetics, environment, or healthcare system in a way unlikely to resonate with or apply to a US/global audience (this does not apply to large multinational cohorts, WHO/global-health studies, or findings with a clear universal biological mechanism)
   Topic fit bonus: microplastics, climate and health, antibiotic resistance, cancer genetics, pandemic preparedness, PFAS/forever chemicals, gut microbiome, CRISPR and gene editing, drug pricing and access score higher
 {personalization}
 Return ONLY a valid JSON array, no other text.
