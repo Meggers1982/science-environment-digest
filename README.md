@@ -44,14 +44,10 @@ The GitHub Pages dashboard at the repo URL lets you:
 | Secret | Description |
 |--------|-------------|
 | `ANTHROPIC_API_KEY` | Anthropic API key |
-| `RESEND_API_KEY` | Resend email API key |
 | `SERPAPI_KEY` | SerpAPI key (optional — skips media filter if absent) |
-
-### Variable required
-
-| Variable | Description |
-|----------|-------------|
-| `DASHBOARD_URL` | GitHub Pages URL for the dashboard (used in email links) |
+| `SUPABASE_URL` | Supabase project URL (enables personalization from dashboard save/delete feedback) |
+| `SUPABASE_KEY` | Supabase API key (read-only use; optional) |
+| `DASHBOARD_REPO_TOKEN` | Token with push access to the shared `research-digest-dashboard` repo |
 
 ### GitHub Pages
 
@@ -67,7 +63,6 @@ python scripts/extract_journals.py
 
 # Run the digest locally (requires env vars)
 export ANTHROPIC_API_KEY=...
-export RESEND_API_KEY=...
 CATEGORIES="Environmental Health" python scripts/science_environment_digest.py
 ```
 
