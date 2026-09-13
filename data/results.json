@@ -1,8 +1,155 @@
 {
-  "last_updated": "2026-09-12T14:27:46.618189+00:00",
+  "last_updated": "2026-09-13T15:08:41.117405+00:00",
   "total_studies": 1721,
-  "new_this_run": 18,
+  "new_this_run": 0,
   "studies": [
+    {
+      "pmid": "42710565",
+      "headline": "Living near green space during the second and third trimesters is linked to nearly half the odds of having a child with autism",
+      "journal": "Environmental Pollution",
+      "pubdate": "2026 Sep 8",
+      "doi": "10.1016/j.envpol.2026.129118",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a 1:3 matched case-control study in central China comparing 207 children diagnosed with ASD to 621 matched healthy controls, estimating monthly residential greenness (NDVI) and PM2.5 levels from 10 months before birth to 3 months after. Using distributed lag nonlinear models, they identified a critical window from 6 to 1 month before birth during which greater green space exposure was associated with 46.6% lower odds of ASD (OR = 0.534, 95% CI: 0.415\u20130.688). PM2.5 did not mediate or modify this association, suggesting greenness may act through pathways beyond air pollution reduction alone.",
+      "why_it_matters": "If replicated, identifying a specific prenatal window when green space exposure is most protective could sharpen both urban planning priorities and prenatal care guidance for reducing ASD risk.",
+      "caveats": "observational design, single-center, small sample (N<100 cases relative to robust epidemiology standards \u2014 207 cases)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Counterintuitive timing finding; human data; clear urban health and public health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "National Geographic / The Atlantic",
+          "headline": "There May Be a Narrow Window in Pregnancy When Living Near Green Space Matters Most for Autism Risk",
+          "hook": "A new study found that exposure to parks and green space during the second and third trimesters \u2014 but not earlier or later \u2014 was associated with nearly half the odds of a child developing autism.",
+          "pitch_angle": "The research, which tracked greenness levels month by month around mothers' homes, suggests that mid-to-late pregnancy may represent a specific biological window of sensitivity, and that the effect isn't simply explained by reduced air pollution. The finding adds urgency to debates about urban green space as a public health resource \u2014 not just for mental wellness, but potentially for fetal neurodevelopment."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "Scientists Pinpoint the Pregnancy Months When Green Space May Protect Against Autism",
+          "hook": "Using satellite vegetation data mapped month by month to pregnant women's addresses, researchers identified a six-month prenatal window during which greener neighborhoods were linked to dramatically lower ASD odds.",
+          "pitch_angle": "The study's use of distributed lag nonlinear models to isolate time-specific windows of environmental sensitivity represents a methodological advance over studies that average exposure across all of pregnancy. Understanding why mid-to-late pregnancy greenness matters \u2014 whether through stress reduction, microbiome pathways, or immune modulation \u2014 is now a key open question in environmental neurodevelopment research."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42721786",
+      "headline": "U.S. government overhauls how it decides what causes cancer \u2014 here's what changed",
+      "journal": "Environment International",
+      "pubdate": "2026 Sep 8",
+      "doi": "10.1016/j.envint.2026.110517",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers from NIEHS and affiliated institutions describe a comprehensive update to the National Toxicology Program's Report on Carcinogens (RoC) Handbook, which governs how the U.S. government evaluates and classifies cancer-causing substances. The update introduces a new 'fit-for-purpose' systematic review strategy, improved tools for assessing mechanistic studies including read-across approaches, and clearer frameworks for integrating evidence across human, animal, and mechanistic data streams. The changes are designed to increase scientific rigor, transparency, and reproducibility in cancer hazard determinations that inform federal regulatory decisions.",
+      "why_it_matters": "The RoC Handbook shapes which substances the U.S. government officially designates as carcinogens, directly influencing environmental regulations, workplace safety standards, and public health policy.",
+      "caveats": "None identified",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Strong public health policy hook; methodological paper limits narrative appeal.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / General science",
+          "headline": "The U.S. Just Changed How It Decides What Causes Cancer",
+          "hook": "For the first time in years, the federal government has overhauled the rulebook it uses to determine whether a chemical causes cancer \u2014 and the changes could affect which substances end up regulated.",
+          "pitch_angle": "The National Toxicology Program's updated Handbook introduces new scientific tools for weighing evidence from human, animal, and molecular studies, making cancer hazard determinations more transparent and defensible. At a moment when regulatory science is under political pressure, the methodology behind what gets labeled a carcinogen matters more than ever."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42727918",
+      "headline": "Dead batteries could help destroy antibiotics polluting waterways",
+      "journal": "Environmental Research",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1016/j.envres.2026.125662",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Beijing developed a water-treatment electrode by coating a natural air diffusion electrode with catalysts recycled from spent zinc-manganese dry batteries, building it into a photo-electro-Fenton (PEF) system. In lab tests, the system generated hydrogen peroxide at high efficiency without requiring aeration, and degraded more than 98.8% of tetracycline \u2014 a widely used antibiotic \u2014 within 10 minutes. The approach repurposes electronic waste to produce a low-cost catalyst, addressing both battery disposal and pharmaceutical water pollution simultaneously.",
+      "why_it_matters": "Antibiotic contamination of waterways is a recognized driver of antimicrobial resistance, and cost-effective degradation technologies could help reduce this environmental burden globally.",
+      "caveats": "animal or cell study, single-center",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Antibiotic resistance hook is strong; lab-only study limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired / Scientific American",
+          "headline": "Turning Dead Batteries Into Antibiotic-Destroying Water Filters",
+          "hook": "A new electrode made from recycled AA battery scraps can destroy nearly all traces of a common antibiotic in contaminated water within 10 minutes.",
+          "pitch_angle": "Chinese engineers repurposed the zinc and manganese oxides from spent dry-cell batteries to build a cheap, high-efficiency catalyst that breaks down tetracycline in wastewater \u2014 tackling two environmental problems at once. With antibiotic pollution increasingly linked to the spread of drug-resistant bacteria, low-cost treatment options like this could matter well beyond the lab."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42727803",
+      "headline": "Plastic debris in Arctic fjords grows its own microbial ecosystem \u2014 and parasites may be hitching a ride on diatoms",
+      "journal": "Environmental Pollution",
+      "pubdate": "2026 Sep 11",
+      "doi": "10.1016/j.envpol.2026.129112",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers submerged pristine and weathered plastic (PE and PET) alongside glass control panels in a Norwegian boreal fjord across five consecutive seasons, tracking which eukaryotic microbes colonized the surfaces using genetic metabarcoding. They found that where and when a plastic particle enters the water \u2014 not what type of plastic it is \u2014 primarily determines what organisms colonize it. A striking secondary finding was a strong co-occurrence between marine parasites (Syndiniales) and diatoms on plastic surfaces, hinting at a possible parasite-host relationship playing out on floating plastic debris.",
+      "why_it_matters": "As plastic pollution expands into polar and subarctic seas, understanding how these artificial surfaces restructure marine microbial food webs \u2014 potentially enabling parasites to travel with their hosts \u2014 could have wide implications for ocean ecosystem health.",
+      "caveats": "small sample (N<100), observational design, single-center, short follow-up, animal or cell study",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Microplastics topic bonus; rigorous seasonal design; no human subjects; ecological finding.",
+      "pitch_angles": [
+        {
+          "publication_type": "National Geographic",
+          "headline": "The Secret Ecosystem Living on Ocean Plastic \u2014 and the Parasites Moving In",
+          "hook": "Floating plastic in a Norwegian fjord isn't just trash \u2014 it's a mobile habitat where marine parasites appear to be tracking their diatom prey.",
+          "pitch_angle": "Scientists have found that the type of plastic barely matters for what colonizes it; what matters is the season and location when it hits the water. A surprise discovery of parasites and diatoms co-occurring on plastic surfaces raises unsettling questions about whether plastic debris is reshaping predator-prey dynamics in already-stressed polar seas."
+        },
+        {
+          "publication_type": "Scientific American",
+          "headline": "It's Not the Plastic That Shapes Its Microbial Community \u2014 It's the Ocean Around It",
+          "hook": "A five-season experiment in Arctic waters overturns the assumption that polymer chemistry drives what microbes colonize marine plastic debris.",
+          "pitch_angle": "Using advanced genetic metabarcoding and statistical modeling, researchers showed that environmental context \u2014 not whether the plastic is PE or PET, new or weathered \u2014 is the dominant driver of plastisphere community assembly. A secondary finding linking marine parasites and diatoms on plastic surfaces opens a new line of inquiry into how artificial substrates could be altering marine food web dynamics."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
+    {
+      "pmid": "42722097",
+      "headline": "A flame retardant found in furniture and electronics may disrupt thyroid function through an unexpected immune pathway",
+      "journal": "Environmental Research",
+      "pubdate": "2026 Sep 10",
+      "doi": "10.1016/j.envres.2026.125630",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers exposed human thyroid follicular cells and rats to TBPH (bis(2-ethylhexyl) tetrabromophthalate), an emerging flame retardant found in electronics and textiles, and investigated the molecular mechanism of its endocrine-disrupting effects. They found that TBPH upregulated key thyroid hormone synthesis markers by engaging a receptor called S1PR3, which then triggered an atypical immune signaling cascade involving interleukin-10 and a non-canonical JAK-STAT pathway \u2014 a mechanism not previously described for this class of chemicals. Both cell-culture and rat tissue findings were consistent, suggesting the pathway may be biologically relevant beyond the lab dish.",
+      "why_it_matters": "TBPH is a replacement for older brominated flame retardants already restricted due to toxicity, meaning these findings raise questions about whether the substitute is itself an endocrine disruptor \u2014 with implications for product safety regulations worldwide.",
+      "caveats": "animal or cell study, single-center",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Endocrine disruptor/flame retardant topic fits journalist interests; cell and animal study only.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / General science",
+          "headline": "A 'Safer' Flame Retardant May Mess With Your Thyroid \u2014 Through Your Immune System",
+          "hook": "A chemical used to replace banned flame retardants in electronics and furniture appears to disrupt thyroid hormone production through an immune-signaling pathway scientists hadn't linked to this class of compounds before.",
+          "pitch_angle": "Lab and rat studies suggest TBPH, an increasingly common substitute for restricted brominated flame retardants, interferes with thyroid function via an unexpected immune-inflammatory signaling route. The finding adds to a growing pattern of 'regrettable substitution' \u2014 where chemicals swapped in for hazardous predecessors turn out to carry their own health risks."
+        }
+      ],
+      "run_date": "2026-09-13",
+      "category": "Environmental Health",
+      "chunk": "1/1",
+      "status": "new"
+    },
     {
       "pmid": "42714234",
       "headline": "Genetic test solves decades of mysterious swelling in a 79-year-old \u2014 and rewrites what a fetal disorder can look like",
@@ -433,39 +580,6 @@
       "status": "new"
     },
     {
-      "pmid": "42710565",
-      "headline": "Living near green space during mid-to-late pregnancy is linked to nearly halved odds of autism in children",
-      "journal": "Environmental Pollution",
-      "pubdate": "2026 Sep 8",
-      "doi": "10.1016/j.envpol.2026.129118",
-      "groundbreaking": "Counterintuitive finding / Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers conducted a 1:3 matched case-control study in central China, comparing 207 children with ASD to 621 matched controls, estimating monthly residential green space (NDVI) and PM2.5 exposure from 10 months before to 3 months after birth using satellite data. Using distributed lag nonlinear models, they identified a critical window from 6 to 1 month before birth during which higher green space exposure was associated with a 46.6% reduction in the odds of ASD. Notably, this association was independent of PM2.5, meaning air pollution did not mediate or modify the green space effect.",
-      "why_it_matters": "If replicated, findings suggest that urban planning decisions about residential green space could influence neurodevelopmental outcomes during a specific, targetable window of pregnancy.",
-      "caveats": "observational design, single-center, small sample (N<1000 cases), narrow regional context (central China), self-reported residential address as proxy for exposure",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Strong public health hook, climate-health angle, but single-region observational design limits generalizability.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The Trimester That Matters Most for Green Space \u2014 and Possibly Autism Risk",
-          "hook": "A new study found that children whose mothers had less access to green space during months 4 through 9 of pregnancy were nearly twice as likely to be diagnosed with autism.",
-          "pitch_angle": "Researchers identified a precise six-month prenatal window during which residential greenery appears to be protective against ASD \u2014 independent of air pollution \u2014 raising fresh questions about what urban environments owe pregnant women. The finding reframes the green space-health debate from lifestyle choice to potential public health infrastructure issue, especially as cities densify."
-        },
-        {
-          "publication_type": "Scientific American",
-          "headline": "Satellite Data Pinpoints a Critical Pregnancy Window When Green Space May Lower Autism Risk",
-          "hook": "By tracking monthly vegetation indices from satellite imagery alongside fine particulate matter levels, scientists found a narrow prenatal window where greenery \u2014 not cleaner air \u2014 appears to drive lower autism odds.",
-          "pitch_angle": "The study's use of distributed lag nonlinear models to isolate time-specific windows of environmental sensitivity represents a methodological advance over averaged-exposure approaches, and its finding that PM2.5 neither mediates nor modifies the effect challenges the assumption that green space works primarily through air quality improvement. Researchers suspect other mechanisms \u2014 stress reduction, microbiome exposure, or hormonal pathways \u2014 may be at work, opening new lines of inquiry."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
       "pmid": "42710610",
       "headline": "A nanoparticle gel combining a citrus flavonoid and collagen speeds wound healing in rats as well as standard treatments",
       "journal": "Nanomedicine: Nanotechnology, Biology, and Medicine",
@@ -658,33 +772,6 @@
       "run_date": "2026-09-12",
       "category": "Pharmacology & Drug Therapy",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42721786",
-      "headline": "The U.S. government just rewrote the rulebook for deciding what causes cancer \u2014 here's what changed",
-      "journal": "Environment International",
-      "pubdate": "2026 Sep 8",
-      "doi": "10.1016/j.envint.2026.110517",
-      "groundbreaking": "Major public health implication",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Scientists at the National Institute of Environmental Health Sciences and collaborators describe major updates to the Report on Carcinogens Handbook, the official methodology used by the U.S. National Toxicology Program to evaluate and classify cancer-causing substances. Key updates include a new systematic review strategy for mechanistic evidence, clearer frameworks for integrating data across human, animal, and lab studies, and new toolkits for assessing individual study informativeness \u2014 changes designed to make carcinogen classification more transparent, rigorous, and reproducible. The updated handbook also formalizes use of 'read-across' approaches, allowing mechanistic data from related chemicals to inform assessments when direct evidence is limited.",
-      "why_it_matters": "The Report on Carcinogens directly influences which substances face federal regulatory scrutiny, making methodological changes to how it classifies carcinogens consequential for both public health policy and industry.",
-      "caveats": "None identified",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Clear regulatory and public health significance; methodological paper limits narrative pitch potential.",
-      "pitch_angles": [
-        {
-          "publication_type": "The Atlantic",
-          "headline": "The U.S. Just Changed How It Decides What Causes Cancer. The Stakes Are High.",
-          "hook": "A quiet update to a federal handbook could reshape which chemicals face regulatory action \u2014 and which ones don't \u2014 for years to come.",
-          "pitch_angle": "The National Toxicology Program has overhauled its systematic review process for classifying carcinogens, introducing new rules for weighing mechanistic and animal evidence alongside human data. The changes could make it easier \u2014 or harder \u2014 to flag emerging chemical hazards, at a moment when the pipeline of untested synthetic compounds continues to grow."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Environmental Health",
-      "chunk": "1/1",
       "status": "new"
     },
     {
@@ -1438,60 +1525,6 @@
       "status": "new"
     },
     {
-      "pmid": "42727918",
-      "headline": "Old batteries could power a cheaper way to destroy antibiotics and other drug pollutants in water",
-      "journal": "Environmental Research",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1016/j.envres.2026.125662",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Chinese engineers developed a water-treatment electrode by recycling zinc-manganese oxides from spent household batteries and coating them onto a natural air diffusion electrode, creating a hybrid photo-electro-Fenton system that generates hydrogen peroxide from atmospheric oxygen without needing aeration equipment. In lab tests, the system degraded more than 98.8% of tetracycline \u2014 a widely used antibiotic that is a major water pollutant \u2014 within a short treatment window. The approach simultaneously addresses two waste streams: spent batteries and pharmaceutical-contaminated wastewater.",
-      "why_it_matters": "Antibiotic contamination of waterways is a recognized driver of antimicrobial resistance, and this approach suggests a low-cost, waste-repurposing pathway to tackle pharmaceutical water pollution that could be relevant to resource-limited settings.",
-      "caveats": "animal or cell study, single-center, short follow-up",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Clever engineering angle but lab-only, no human health data, narrow technical scope.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired",
-          "headline": "Scientists Are Turning Dead Batteries Into Tools That Destroy Antibiotic Pollution in Water",
-          "hook": "Spent AA batteries \u2014 a massive waste problem \u2014 may hold the key to neutralizing one of the less-visible drivers of antibiotic resistance: drug-contaminated water.",
-          "pitch_angle": "A new lab system recycles zinc-manganese from discarded batteries into electrodes that obliterate over 98% of tetracycline from water using only air, no expensive inputs required. The dual waste-reuse angle and antibiotic resistance connection give this a broader story beyond water chemistry."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
-      "pmid": "42727803",
-      "headline": "Plastic debris in Arctic fjords is seeding unexpected parasite-algae partnerships that could ripple through marine food webs",
-      "journal": "Environmental Pollution",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1016/j.envpol.2026.129112",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers submerged pristine and weathered plastic sheets (polyethylene and PET) alongside glass controls in a Norwegian boreal fjord across five consecutive seasons, then used genetic sequencing to characterize the eukaryotic microbial communities \u2014 the 'plastisphere' \u2014 that colonized them. They found that season and location, not plastic type or weathering status, primarily determined which microbes colonized the plastic, suggesting environmental context drives early plastisphere assembly. A striking secondary finding was a consistent co-occurrence signal between Syndiniales (marine parasites) and diatoms (key photosynthetic algae) specifically on plastic surfaces, hinting that plastics may be facilitating parasite-host interactions with potential food web consequences.",
-      "why_it_matters": "If marine plastics are creating microhabitats that concentrate parasites alongside their diatom hosts, they could be disrupting the base of ocean food chains in ways that go far beyond chemical toxicity.",
-      "caveats": "single-center, short follow-up, observational design",
-      "fact_check_note": "",
-      "relevance_score": 7,
-      "relevance_score_reason": "Microplastics topic bonus; counterintuitive parasite-diatom finding with food web implications.",
-      "pitch_angles": [
-        {
-          "publication_type": "National Geographic",
-          "headline": "Ocean Plastics Are Doing Something Stranger Than We Thought: Hosting Parasite Hotspots",
-          "hook": "Plastic debris floating in a Norwegian fjord isn't just a pollution problem \u2014 it may be acting as a meeting ground for marine parasites and the algae they infect.",
-          "pitch_angle": "A five-season field study found that plastic surfaces in Arctic waters harbor a surprisingly consistent pairing of parasitic microbes and diatoms, the photosynthetic algae at the foundation of ocean food webs. The finding suggests microplastics may be reshaping ecological interactions at the microbial level in ways scientists are only beginning to map."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Environmental Health",
-      "chunk": "1/1",
-      "status": "new"
-    },
-    {
       "pmid": "42728308",
       "headline": "A 27-year-old defies a disorder so rare only 14 people have ever been diagnosed \u2014 and most didn't survive infancy",
       "journal": "Journal of Human Genetics",
@@ -1798,39 +1831,6 @@
       "run_date": "2026-09-12",
       "category": "Infectious Disease",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42722097",
-      "headline": "A common flame retardant found in furniture and electronics may hijack thyroid hormone production through an unexpected immune pathway",
-      "journal": "Environmental Research",
-      "pubdate": "2026 Sep 10",
-      "doi": "10.1016/j.envres.2026.125630",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers exposed human thyroid follicular cells and rats to TBPH, a brominated flame retardant used as a replacement for banned compounds, to investigate how it disrupts thyroid function at the molecular level. They found TBPH (at 100 nM) significantly upregulated thyroid hormone synthesis markers in human cells, and identified a novel signaling chain \u2014 involving receptor S1PR3, the immune cytokine IL-10, and a non-canonical JAK-STAT pathway \u2014 as a candidate mechanism. The findings were partially corroborated in rat thyroid tissue, suggesting this 'replacement' flame retardant may interfere with thyroid regulation through an immune-linked route not previously described for this chemical class.",
-      "why_it_matters": "TBPH is increasingly used as a substitute for banned flame retardants and is now detected in household dust, electronics, and human samples, making its potential to disrupt thyroid function through a novel immune pathway a significant public health concern.",
-      "caveats": "animal or cell study, small sample (N<100)",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Emerging flame retardant with endocrine-disruption angle; limited by cell/animal design.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American",
-          "headline": "The 'Safe' Replacement Flame Retardant May Be Disrupting Thyroid Hormones \u2014 Through Your Immune System",
-          "hook": "A chemical increasingly used to replace banned flame retardants appears to hijack thyroid hormone production by activating an immune signaling pathway scientists didn't expect.",
-          "pitch_angle": "Lab and animal studies suggest TBPH, now common in furniture and electronics, upregulates thyroid synthesis markers via an unusual immune-linked molecular cascade. If confirmed in humans, it raises urgent questions about whether regulatory substitutions are creating new endocrine health risks."
-        },
-        {
-          "publication_type": "The Atlantic",
-          "headline": "We Banned One Toxic Flame Retardant. The Replacement Might Not Be Safe Either.",
-          "hook": "The chemical industry's playbook of swapping out banned substances for structurally similar ones may be repeating a familiar mistake with thyroid-disrupting flame retardants.",
-          "pitch_angle": "Early lab evidence suggests TBPH \u2014 introduced as a safer alternative \u2014 may interfere with thyroid hormone production through an immune pathway, echoing concerns about 'regrettable substitution' that plagued previous flame retardant bans. The findings add to a growing body of science challenging the assumption that chemical replacements are inherently safer."
-        }
-      ],
-      "run_date": "2026-09-12",
-      "category": "Environmental Health",
-      "chunk": "1/1",
       "status": "new"
     },
     {
