@@ -26,6 +26,10 @@ Unlike the mental health digest (which generates a single New Scientist Mind pit
 - Scientific American — mechanistic detail, how-science-works angle
 - The Atlantic — policy, equity, or societal implications
 - Wired — technology, innovation, or systems angle
+- New Scientist, Science News, Discover — timely research news for a general science audience
+- Undark, Knowable Magazine — accountability and explanatory science journalism
+- bioGraphic — nature, conservation, and environmental science
+- Health.com, Women's Health Magazine — findings with a direct personal-health angle
 - General science — broad audience interest
 
 ## Dashboard
