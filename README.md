@@ -69,7 +69,7 @@ CATEGORIES="Environmental Health" python scripts/science_environment_digest.py
 
 ## Data files
 
-- `data/*.csv` — journal lists per category. Originally extracted from `PubMed_Journals_Categorized.xlsx` by `scripts/extract_journals.py`; that workbook no longer exists, so the CSVs are now hand-maintained and are the source of truth. Don't re-run `extract_journals.py` — it would overwrite hand-added rows.
+- `data/*.csv` — journal lists per category. Originally extracted from `PubMed_Journals_Categorized.xlsx` by `scripts/extract_journals.py`; that workbook no longer exists, so the CSVs are now hand-maintained and are the source of truth, and the extractor script has been deleted.
 - `data/results.json` — accumulated study results powering the dashboard
 
 ## Journal list audit (2026-09-14)
