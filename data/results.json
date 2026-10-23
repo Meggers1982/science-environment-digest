@@ -1,8 +1,824 @@
 {
-  "last_updated": "2026-10-22T14:58:34.192495+00:00",
-  "total_studies": 2199,
-  "new_this_run": 0,
+  "last_updated": "2026-10-23T14:53:19.177419+00:00",
+  "total_studies": 2222,
+  "new_this_run": 23,
   "studies": [
+    {
+      "pmid": "42897905",
+      "headline": "Antioxidants are widely prescribed for male infertility \u2014 but the evidence base is surprisingly shaky",
+      "journal": "Expert Opinion on Pharmacotherapy",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1080/14656566.2026.2749640",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a comprehensive literature review of studies published from 2000\u20132026 examining antioxidant therapy for male infertility, drawing on systematic reviews, RCTs, and clinical guidelines. The review found that despite a strong biological rationale linking oxidative stress to male subfertility, major barriers \u2014 including no standardized diagnostic criteria, inconsistent dosing protocols, clinical trial heterogeneity, and the underappreciated risk of 'reductive stress' from over-supplementation \u2014 prevent evidence-based clinical application. The authors conclude that antioxidants cannot yet be reliably recommended as a treatment for male infertility.",
+      "why_it_matters": "Antioxidant supplements are among the most commonly recommended interventions for male infertility worldwide, yet this review suggests the evidence supporting their use remains fundamentally insufficient.",
+      "caveats": "secondary analysis, observational design, review article not primary data",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Public health hook on widely used supplements; review design limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "Millions of Couples Are Using Antioxidants for Male Infertility \u2014 Experts Say the Evidence Isn't There",
+          "hook": "Antioxidant supplements are routinely prescribed for male infertility, but a sweeping review of 25 years of research finds the evidence base is riddled with inconsistencies.",
+          "pitch_angle": "The review identifies critical gaps including no agreed-upon way to diagnose oxidative stress infertility and a little-known risk of 'reductive stress' from too many antioxidants. For the millions of couples navigating infertility, this suggests a commonly recommended intervention may be far less reliable than assumed."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42907521",
+      "headline": "Shark antibodies crack open a breast cancer target that conventional drugs couldn't reach",
+      "journal": "Acta Pharmacologica Sinica",
+      "pubdate": "2026 Oct 22",
+      "doi": "10.1038/s41401-026-01941-3",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used a shark-derived single-domain antibody (VNAR) to engineer an immunotoxin \u2014 called TH4-PE24 \u2014 targeting ER\u03b136, a membrane protein overexpressed in aggressive, therapy-resistant breast cancers that has long been considered undruggable. In cell culture and mouse xenograft models, TH4-PE24 showed high specificity, potent cytotoxicity against ER\u03b136-positive cancer cells (IC50 = 1.54 nmol/L), and significant tumor suppression without observable systemic toxicity. The immunotoxin worked by degrading ER\u03b136 and disrupting downstream signaling and tumor metabolism.",
+      "why_it_matters": "Therapy-resistant breast cancers with high ER\u03b136 expression have had no targeted treatment options, and this approach suggests shark-derived antibody scaffolds could unlock a new class of precision cancer therapeutics against previously inaccessible membrane receptors.",
+      "caveats": "animal or cell study, single-center",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive biology (shark antibodies); animal/cell study limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "Sharks May Hold the Key to Treating the Most Aggressive Breast Cancers",
+          "hook": "A receptor on therapy-resistant breast cancer cells has stumped drug developers for years \u2014 until researchers turned to the immune system of sharks.",
+          "pitch_angle": "Shark antibodies have an unusually long looping structure that lets them grip protein targets conventional antibodies can't, and scientists have now used this to engineer a toxin-delivering missile aimed at a long-undruggable breast cancer protein. The work is early-stage \u2014 cell and mouse models only \u2014 but it opens a potential new front against cancers that have run out of treatment options."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42808754",
+      "headline": "A chip-sized device unlocks vast 'microbial dark matter' in Arctic soil \u2014 and most of what it finds is new to science",
+      "journal": "Applied and Environmental Microbiology",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1128/aem.01124-26",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers applied microfluidic droplet technology (MDT) \u2014 which isolates individual microbial cells into microscale water-in-oil droplets \u2014 to Arctic active-layer soil for the first time, benchmarking it against conventional plate-based cultivation methods using identical starting conditions. MDT achieved 6.5- to 8.1-fold higher microbial recovery rates and 180-fold greater throughput, capturing 256 genera versus 211 with plate methods, with significantly reduced dominance by fast-growing bacteria. Roughly 50% of MDT-recovered sequences matched potential novel species and 27% potential novel genera, with 12 of 17 spot-checked isolates confirmed as candidate new species.",
+      "why_it_matters": "Arctic soils are thawing rapidly due to climate change, and the largely unknown microbial communities they harbor may play critical roles in carbon cycling, permafrost stability, and biotechnology \u2014 this method dramatically accelerates access to that hidden diversity.",
+      "caveats": "single-center, single geographic site (Arctic active layer), results may not generalize to other extreme environments, novel species designations require formal taxonomic validation",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Climate-linked Arctic microbiome discovery with strong methodology and biotechnology relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "National Geographic / bioGraphic",
+          "headline": "A microfluidic chip is finally cracking open the secret world of Arctic soil microbes",
+          "hook": "Standard lab methods miss the vast majority of bacteria living in frozen Arctic soil \u2014 a new chip-based approach recovered more than six times as many microbes, and half appear to be entirely new to science.",
+          "pitch_angle": "As permafrost thaws at unprecedented rates, the microbial communities driving Arctic carbon cycling remain almost entirely unknown because conventional cultivation methods can't grow them. Microfluidic droplet technology bypasses that bottleneck by giving each slow-growing cell its own private microenvironment \u2014 opening a window onto a hidden world that could reshape our understanding of climate feedbacks and yield cold-adapted enzymes with biotechnological value."
+        },
+        {
+          "publication_type": "Wired / Scientific American",
+          "headline": "This tiny device is unlocking a vast library of unknown life hiding in Arctic permafrost",
+          "hook": "By shrinking lab conditions to the scale of a single cell, scientists have recovered six times more microbial diversity from Arctic soil than conventional methods \u2014 and most of it was completely unknown.",
+          "pitch_angle": "The Arctic's extreme cold and nutrient poverty make its microbes nearly impossible to grow in labs, leaving an entire biological library inaccessible \u2014 until microfluidic droplet technology gave each cell its own isolated microenvironment. The method's first application to polar soil revealed hundreds of potential new species and genera, establishing a platform that could accelerate both climate science and the hunt for novel cold-adapted enzymes and compounds."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42905455",
+      "headline": "A new fungal infection test beats the gold standard \u2014 with 94% accuracy in both blood and lung fluid",
+      "journal": "Medical Mycology",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1093/mmy/myag062",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers across six Chinese hospital centers evaluated a novel chemiluminescence immunoassay (GM-CLIA) for detecting Aspergillus galactomannan antigen in serum and bronchoalveolar lavage fluid, comparing it to the existing gold-standard enzyme immunoassay in 465 patients (229 with invasive aspergillosis, 236 without). The GM-CLIA achieved sensitivity above 93% and specificity above 95% in both sample types, with area-under-the-curve values of 0.977 (serum) and 0.982 (BALF). The new test showed no cross-reactivity with non-Aspergillus pathogens and strong correlation with the existing standard.",
+      "why_it_matters": "Invasive aspergillosis carries high mortality in immunocompromised patients, and a faster, more accurate bedside-compatible test could meaningfully accelerate diagnosis and treatment.",
+      "caveats": "single-center, observational design, retrospective design, China-based multicenter (may not generalize globally)",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Clinically relevant diagnostic advance but narrow specialist audience; China-based cohort.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / Science News",
+          "headline": "A New Blood Test Could Catch a Deadly Fungal Infection Faster \u2014 and More Accurately",
+          "hook": "Invasive aspergillosis kills up to half of immunocompromised patients who develop it, partly because current tests are slow \u2014 but a new chemiluminescence assay found the infection with over 93% accuracy in both blood and lung fluid.",
+          "pitch_angle": "A multicenter study across six Chinese hospitals found a novel immunoassay matched or outperformed the existing standard for diagnosing invasive aspergillosis, with high sensitivity and no false positives from other fungi. Faster, more accurate fungal diagnostics could reduce mortality in cancer patients, transplant recipients, and others with weakened immune systems."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42905257",
+      "headline": "Strep throat's dangerous cousin showed up in the jaw muscles of two children \u2014 a nearly unheard-of complication",
+      "journal": "The Pediatric Infectious Disease Journal",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1097/INF.0000000000005450",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Clinicians in Lisbon, Portugal reported two previously healthy children \u2014 ages 6 and 7 \u2014 who presented with ear infections accompanied by painful jaw and temple swelling; CT imaging revealed temporal muscle infection (pyomyositis) caused by Group A Streptococcus in both cases. One child also developed mastoiditis and required surgical drainage, but both fully recovered. Temporal muscle pyomyositis from GAS is described as exceptionally rare, with only isolated prior reports in the literature.",
+      "why_it_matters": "Recognizing that a common childhood ear infection pathogen can spread to nearby muscle tissue may prevent misdiagnosis and delay in treatment of a potentially serious complication.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Rare case series; limited generalizability but notable clinical curiosity for pediatric ID audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / Science News",
+          "headline": "An Ear Infection Spread to the Jaw Muscles \u2014 Twice. Doctors Say Clinicians Need to Know.",
+          "hook": "Group A Streptococcus \u2014 the bacterium behind strep throat \u2014 infected the temporal muscles of two young children following routine ear infections, a complication so rare that clinicians say most doctors would never think to look for it.",
+          "pitch_angle": "The two Portuguese case reports highlight how GAS, a pathogen typically associated with throat and skin infections, can migrate to unexpected anatomical sites in children, causing muscle abscesses that require imaging to detect and sometimes surgery to treat."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42905275",
+      "headline": "Scientists identify a new genus of virus that hunts a waterborne pathogen \u2014 and find it lurking in wastewater worldwide",
+      "journal": "Current Microbiology",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1007/s00284-026-05104-9",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers isolated and characterized a novel bacteriophage, vB_AsaP_JS1, that infects Aeromonas salmonicida \u2014 an opportunistic aquatic pathogen \u2014 and found it sufficiently genetically distinct from all known phage genera to warrant classification as a new genus, tentatively called Jestvirus, within the family Autotranscriptaviridae. Genomic analysis revealed a compact transcriptional module and several putative host-interaction genes whose functions remain hypothetical. Metagenomic screening of wastewater datasets from multiple geographic regions detected sequence signals related to this phage, suggesting broader environmental distribution than initially expected.",
+      "why_it_matters": "Expanding the known diversity of bacteriophages that target Aeromonas species \u2014 which can cause disease in fish, amphibians, and immunocompromised humans \u2014 may open new avenues for phage-based biocontrol in aquaculture and water systems.",
+      "caveats": "animal or cell study, purely descriptive/taxonomic, metagenomic signals are unconfirmed, single-center, functional gene roles unvalidated",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Novel phage taxonomy; limited public health hook and no human data.",
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist / bioGraphic",
+          "headline": "A newly discovered virus hunts a waterborne pathogen \u2014 and it's already spreading through wastewater globally",
+          "hook": "Scientists have found a virus so genetically distinct from all known phages that it needed its own new genus \u2014 and it preys on bacteria that threaten fish farms and immunocompromised people.",
+          "pitch_angle": "The newly named Jestvirus targets Aeromonas, an opportunistic pathogen found in freshwater environments worldwide and linked to disease outbreaks in aquaculture. Finding its genetic signatures in wastewater from multiple continents hints at an underappreciated ecological role \u2014 and possible utility for phage-based biocontrol if its biology can be confirmed experimentally."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42905336",
+      "headline": "A lesser-known yeast used in fermented foods could be the next probiotic for livestock \u2014 but safety questions remain unresolved",
+      "journal": "Probiotics and Antimicrobial Proteins",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1007/s12602-026-11278-2",
+      "groundbreaking": "None identified",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review evaluates Pichia kudriavzevii as a candidate probiotic yeast for use in livestock and aquaculture, comparing it against the well-established Saccharomyces cerevisiae var. boulardii. The authors assessed evidence for its gastrointestinal resilience, antimicrobial activity, immune modulation, and mycotoxin-binding capacity across poultry, swine, ruminant, and fish systems. They concluded that while P. kudriavzevii shows promise, most supporting evidence comes from in vitro or small animal studies, and unresolved biosafety concerns and regulatory gaps preclude it from replacing established probiotics.",
+      "why_it_matters": "With antibiotic use in livestock under mounting regulatory pressure globally, identifying safe, effective microbial alternatives has direct implications for food security and reducing agricultural antibiotic resistance.",
+      "caveats": "animal or cell study, observational design",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Antibiotic resistance adjacent; but review-only, no new data, limited general-audience hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "Knowable Magazine",
+          "headline": "Could a Yeast Found in Fermented Foods Replace Antibiotics in Livestock?",
+          "hook": "A yeast already common in fermented beverages and cheese is being investigated as a probiotic to reduce antibiotic use in farm animals \u2014 but scientists say the safety evidence isn't there yet.",
+          "pitch_angle": "Pichia kudriavzevii has shown potential to boost gut health, neutralize mycotoxins, and fend off pathogens in pigs, poultry, and fish \u2014 but the research base is thin and biosafety questions are unresolved, leaving it well short of regulatory approval. The search for microbial alternatives to agricultural antibiotics is intensifying as resistance spreads, making the field's rigor increasingly important."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42904687",
+      "headline": "The bacteria behind a deadly but neglected tropical disease spread along Southeast Asia's rivers \u2014 including the Mekong",
+      "journal": "mSystems",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1128/msystems.00869-26",
+      "groundbreaking": "First-in-class human study / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers sequenced 253 clinical isolates of Burkholderia pseudomallei \u2014 the bacterium causing melioidosis, a disease with up to 50% mortality \u2014 collected from patients at six Cambodian hospitals between 2021 and 2023, representing the largest genomic study of the pathogen in Cambodia to date. Phylogeographic analysis found that strains clustered spatially along major waterways, including the Mekong River, suggesting river systems contribute to bacterial dispersal across the country. Comparison against over 3,000 global genomes revealed Cambodian strains intermix with other Southeast Asian isolates but are genetically distinct from Australian strains, and one clade carried a unique genomic island with novel genes suggesting local evolution.",
+      "why_it_matters": "Melioidosis kills an estimated 89,000 people per year globally yet remains vastly underdiagnosed, and understanding how its causative bacterium spreads via river systems is critical for surveillance and outbreak preparedness in climate-vulnerable regions.",
+      "caveats": "single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Infectious disease genomics with pandemic-preparedness and climate-health relevance; strong study design.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "A Deadly Bacteria Is Riding the Mekong \u2014 and Most of the World Has Never Heard of It",
+          "hook": "A new genomic study finds that Burkholderia pseudomallei, the bacterium behind a disease that kills tens of thousands annually, may be spreading across Cambodia by hitching rides along the Mekong River.",
+          "pitch_angle": "Melioidosis is one of the world's most lethal yet under-recognized tropical diseases, and this largest-ever genomic survey of the pathogen in Cambodia reveals that river systems \u2014 including the Mekong \u2014 may be highways for bacterial dispersal, with implications for monsoon-season outbreak risk. As climate change intensifies flooding in Southeast Asia, understanding this waterborne transmission dynamic becomes urgent for global health preparedness."
+        },
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "The Mekong River May Be Spreading a Flesh-Eating Bacterium Across Cambodia",
+          "hook": "Genomic mapping of 253 clinical cases reveals that Burkholderia pseudomallei strains in Cambodia cluster along major waterways, pointing to river-mediated dispersal of a pathogen that kills as reliably as tuberculosis.",
+          "pitch_angle": "Using phylogeographic analysis, researchers found spatial clustering of melioidosis-causing bacteria along Cambodian river systems and identified a novel genomic island in one strain lineage, suggesting ongoing local evolution. The findings underscore the need for waterway-informed surveillance strategies for an organism that thrives in waterlogged soils and resurges with flooding."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42906761",
+      "headline": "Methane-producing microbes live in your mouth \u2014 and scientists are finally developing ways to see them",
+      "journal": "Journal of Microbiological Methods",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1016/j.mimet.2026.107755",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review synthesizes established and emerging microscopy and molecular imaging approaches for studying methanogenic archaea in the human oral microbiome. The authors compare techniques ranging from low-resolution detection to nanoscale characterization, assessing each for taxonomic specificity, spatial resolution, and clinical translatability. They propose an integrative tiered imaging framework to address key gaps including standardized protocols, real-time visualization, and quantitative methods for these understudied but potentially disease-relevant microbes.",
+      "why_it_matters": "Oral methanogenic archaea have been linked to periodontal disease, peri-implantitis, and systemic conditions, yet their functional roles remain poorly understood partly due to imaging limitations \u2014 better tools could reframe how dentists and scientists think about oral health.",
+      "caveats": "None identified",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Interesting microbiome angle; review paper, no new empirical findings, limited direct public health hook.",
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist / Knowable Magazine",
+          "headline": "Your mouth makes methane \u2014 and the microbes responsible may be linked to gum disease",
+          "hook": "Methane-producing archaea \u2014 the same type of microorganism found in swamps and cow stomachs \u2014 also live in your mouth, and scientists are only now developing the tools to properly study them.",
+          "pitch_angle": "Oral methanogenic archaea have long been overlooked because standard imaging tools can't reliably detect them, but new microscopy methods are revealing their spatial organization in dental biofilms and potential links to periodontal disease and systemic illness \u2014 raising questions about whether gut microbiome science has been missing an important oral dimension."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42906751",
+      "headline": "Drug Developers Get a New Tool to Measure How Much of a Drug Is Actually 'Free' in the Body",
+      "journal": "Journal of Pharmaceutical Sciences",
+      "pubdate": "2026 Oct 21",
+      "doi": "10.1016/j.xphs.2026.104553",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "AstraZeneca scientists describe a novel non-dialysis method for measuring the unbound fraction of drug compounds \u2014 a pharmacokinetic parameter critical for predicting how drugs behave in the body. The technique exploits non-specific binding to labware to indirectly calculate free drug concentrations, and was validated on a focused set of highly lipophilic 'beyond rule-of-five' compounds that confound traditional dialysis methods. The approach demonstrated consistent results across a wide concentration range where standard techniques typically fail.",
+      "why_it_matters": "As drug developers increasingly pursue large, complex molecules like PROTACs and macrocycles, reliable measurement of drug availability in the body becomes a key bottleneck that this method could help resolve.",
+      "caveats": "industry funding [AstraZeneca], small compound test set, no human or animal validation",
+      "fact_check_note": "",
+      "relevance_score": 4,
+      "relevance_score_reason": "Methodological pharma tool; specialized audience; no clinical or health outcome data.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "The Next Generation of Cancer Drugs Has a Measurement Problem \u2014 And a Possible Fix",
+          "hook": "As pharma bets big on complex new drug classes, a surprisingly basic question \u2014 how much drug is actually free to act in your blood? \u2014 has become harder to answer.",
+          "pitch_angle": "AstraZeneca researchers describe a workaround that exploits the very property \u2014 'stickiness' to lab materials \u2014 that makes these drugs hard to measure, potentially accelerating development of a new wave of oncology treatments."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42775881",
+      "headline": "The worms infecting a billion people carry their own microbiomes \u2014 and scientists barely understand them",
+      "journal": "mSystems",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1128/msystems.00569-26",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This review synthesizes current evidence on the microbiomes living inside Ascaris and Trichuris nematodes \u2014 soil-transmitted parasites that infect an estimated 1\u20132 billion people globally \u2014 finding that the parasites' own internal microbial communities remain drastically understudied compared to their effects on the host gut. Most known parasite-associated microbiota appear to be transient communities derived from the host, acquired horizontally, and may play roles in parasite survival and host interaction. The authors argue that investigating parasite reproductive tissues, potentially harboring stable microbial communities, is a critical next step for developing microbiome-based therapies to control these infections.",
+      "why_it_matters": "Understanding the microbiomes inside parasitic worms could open entirely new therapeutic strategies against some of the world's most prevalent \u2014 and neglected \u2014 infections.",
+      "caveats": "observational design, secondary analysis",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Gut microbiome topic bonus; global health hook; review design limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / New Scientist",
+          "headline": "Parasitic Worms Have Their Own Microbiomes \u2014 and They Could Be the Key to Fighting Them",
+          "hook": "The worms infecting over a billion people worldwide carry microbial communities of their own \u2014 and scientists are only beginning to map them.",
+          "pitch_angle": "Research has long focused on how parasitic worms reshape the human gut microbiome, but a growing movement called the Parasite Microbiome Project is flipping that lens \u2014 looking inside the worms themselves. If stable microbial communities are confirmed in parasite reproductive tissues, they could become novel targets for disrupting parasite survival at scale."
+        },
+        {
+          "publication_type": "Knowable Magazine / Undark",
+          "headline": "A Hidden Layer of the Worm-Human Relationship Has Gone Almost Unstudied",
+          "hook": "Soil-transmitted worms that infect a billion people host their own internal microbial ecosystems \u2014 a dimension of the parasite-host relationship that science has largely overlooked.",
+          "pitch_angle": "Most neglected tropical disease research examines how parasitic nematodes disrupt human biology, but the worms themselves may harbor microbiomes that shape their survival and pathogenicity. Closing this knowledge gap could reframe how scientists approach treatment for some of the world's most common \u2014 and hardest to eliminate \u2014 infections."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42775892",
+      "headline": "A gut bacterium found in humans can suppress colorectal cancer \u2014 without triggering dangerous inflammation",
+      "journal": "mSystems",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1128/msystems.00528-26",
+      "groundbreaking": "First-in-class human study / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers isolated a novel Streptomyces strain (CGMCC 17111) from the human gut and characterized it genetically, phenotypically, and functionally. The strain, distinct from its closest relative Streptomyces albidoflavus which shows no anticancer activity, was tested in vitro and in vivo experimental models. It suppressed colorectal cancer by inducing apoptosis and restoring gut homeostasis without eliciting strong inflammatory responses in the host.",
+      "why_it_matters": "Colorectal cancer remains one of the deadliest cancers globally, and drug resistance and recurrence limit current therapies, so identifying a resident gut microbe with anti-tumor activity could open a new avenue for microbiome-based cancer treatment.",
+      "caveats": "animal or cell study, small sample (N<100)",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Gut microbiome topic bonus; promising finding undercut by preclinical-only evidence.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "Your gut may already harbor a bacterium that fights colorectal cancer",
+          "hook": "A Streptomyces strain living in the human gut can kill colorectal cancer cells without triggering the runaway inflammation that derails many cancer therapies.",
+          "pitch_angle": "Scientists isolated a novel gut bacterium that suppressed tumors in lab and animal models, suggesting anticancer microbes may already reside in us but are silenced by disease. If validated in humans, this could shift cancer research toward restoring microbial ecology rather than purely attacking tumors with drugs."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The next cancer drug might already be living in your gut",
+          "hook": "Buried in the human gut microbiome is a newly identified bacterium that appears to fight colorectal cancer from the inside \u2014 without the inflammatory side effects of conventional therapies.",
+          "pitch_angle": "The discovery of Streptomyces CGMCC 17111 raises the possibility that the gut's microbial community contains untapped therapeutic agents, and that manipulating gut ecology could become a cancer-prevention or treatment strategy \u2014 a concept with sweeping implications for how we think about the microbiome."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42734327",
+      "headline": "One gut bacterium is depleted in colorectal cancer, Crohn's disease, and liver cirrhosis \u2014 suggesting a shared microbial vulnerability across very different diseases",
+      "journal": "mSystems",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1128/msystems.00836-26",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers performed a secondary cross-sectional analysis of public gut metagenomics and serum metabolomics datasets from patients with colorectal cancer, Crohn's disease, and liver cirrhosis, benchmarking 1,152 preprocessing-model configurations to guard against analytical pipeline bias. They identified a 19-species microbiome signature in which one organism \u2014 Firmicutes bacterium CAG:41 \u2014 was the only taxon stably depleted across all three diseases. Microbiome pathway enrichment pointed to sulfur-selenium redox metabolism and B-vitamin biosynthesis as shared features, while host metabolic responses were largely disease-specific.",
+      "why_it_matters": "Identifying a single gut bacterium consistently depleted across three serious gut-associated diseases could eventually inform microbiome-based screening or therapeutic strategies targeting a shared biological vulnerability.",
+      "caveats": "observational design, secondary analysis, short follow-up",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Gut microbiome topic bonus; cross-disease finding is counterintuitive; secondary analysis limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American",
+          "headline": "A Single Gut Microbe Is Missing in Cancer, Crohn's, and Cirrhosis \u2014 and It Points to a Shared Biological Flaw",
+          "hook": "Despite being very different diseases, colorectal cancer, Crohn's disease, and liver cirrhosis all share a depletion of one specific gut bacterium linked to sulfur-selenium metabolism.",
+          "pitch_angle": "A new analytical framework designed to prevent pipeline-driven false results found one organism \u2014 Firmicutes bacterium CAG:41 \u2014 consistently absent across three distinct gut-associated diseases, suggesting these conditions may share a microbial vulnerability even as their host metabolic signatures diverge. The finding offers a concrete target for experimental and prospective validation, and a new conceptual template for cross-disease microbiome research."
+        },
+        {
+          "publication_type": "The Atlantic",
+          "headline": "The Gut Microbiome Research Field Has a Reproducibility Problem \u2014 This Study Tried to Fix It",
+          "hook": "Arbitrary data-processing choices can swing microbiome study results from near-random to near-perfect on identical datasets \u2014 a flaw this research set out to correct before drawing any biological conclusions.",
+          "pitch_angle": "By benchmarking more than a thousand analytical pipelines simultaneously, researchers found that most microbiome comparisons across diseases are unreliable before analysis even begins \u2014 and showed that once you control for that bias, a more honest (and still striking) signal emerges. The study is as much a methodological intervention as a biological discovery, with implications for how the entire microbiome field should be conducted."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42725772",
+      "headline": "A survey of 100,000 microbial metagenomes uncovers new families of bacterial 'genome editors' that scientists didn't know existed",
+      "journal": "mSystems",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1128/msystems.00732-26",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers mined retron reverse transcriptase sequences across the SPIRE metagenome collection \u2014 a non-redundant dataset spanning over 100,000 processed microbial metagenomes from diverse environments \u2014 using hidden Markov models calibrated to known retron types. They identified all canonical retron types plus two previously unrecognized type XI-like lineages with distinct protein architectures, and found that retron distribution is strongly shaped by both bacterial taxonomy and ecological niche. Candidate non-coding RNA structures were identified in both new lineages, suggesting the core organizational framework of retrons is conserved despite extensive sequence divergence.",
+      "why_it_matters": "Retrons are increasingly engineered as programmable tools for genome editing, molecular recording, and biosensing, and mapping their full diversity in nature expands the toolkit available for biotechnology and potentially for novel anti-phage defense applications.",
+      "caveats": "purely computational with no validation",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "CRISPR/gene-editing adjacent; large-scale computational; no experimental validation lowers score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Wired",
+          "headline": "Scientists Just Found New Flavors of a Bacterial Tool That Could Expand the CRISPR Toolkit",
+          "hook": "A sweep of more than 100,000 microbial metagenomes has turned up previously unknown families of retrons \u2014 bacterial genetic elements increasingly harnessed for genome editing and molecular sensing.",
+          "pitch_angle": "Retrons are nature's own reverse transcriptases, and researchers have been engineering them as programmable alternatives and complements to CRISPR \u2014 but their full diversity in the wild has barely been mapped until now. The two new lineages identified here have unusual architectures that set them apart from known retrons, offering fresh candidates for biotechnological engineering once their functions are validated experimentally."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42899681",
+      "headline": "The bacteria rotting China's sweet potatoes don't use the weapon scientists expected \u2014 and four are brand new to science",
+      "journal": "Applied and Environmental Microbiology",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1128/aem.01006-26",
+      "groundbreaking": "Counterintuitive finding / Overturns prior research",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Chinese agricultural researchers isolated 225 Streptomyces strains from sweet potato storage roots showing soil rot disease symptoms across Henan and Guangdong provinces, identifying six highly pathogenic strains through whole-genome sequencing and inoculation assays. Comparative genomics revealed four of the six strains represent novel Streptomyces species, and none possessed the canonical thaxtomin biosynthetic gene cluster \u2014 the toxin long believed to be the primary weapon of plant-pathogenic Streptomyces. Instead, the strains carried conserved gene clusters for siderophores and stress-related metabolites, suggesting an entirely different pathogenicity mechanism.",
+      "why_it_matters": "Sweet potato is a food security crop for hundreds of millions of people, and identifying that disease-causing bacteria may use previously unrecognized virulence pathways could redirect breeding and biocontrol strategies.",
+      "caveats": "animal or cell study, observational design, single-country scope (China)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive mechanism finding overturning field assumption; food security hook; lab/field study.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "The Bacteria Destroying a Global Food Crop Don't Use the Toxin We Thought \u2014 Scientists Just Found Four New Culprits",
+          "hook": "The bacteria causing an emerging rot disease in sweet potatoes appear to infect plants without the toxin that has long defined plant-pathogenic Streptomyces \u2014 a finding that upends decades of assumptions about how these soil microbes cause disease.",
+          "pitch_angle": "Whole-genome analysis of sweet potato rot pathogens in China identified four entirely new Streptomyces species whose virulence relies on iron-scavenging and stress-related pathways rather than the canonical thaxtomin toxin, suggesting current disease management strategies may be targeting the wrong mechanism. With sweet potato feeding hundreds of millions globally, the discovery could reorient both resistance breeding and biocontrol research."
+        },
+        {
+          "publication_type": "bioGraphic / general environmental science",
+          "headline": "Soil Bacteria Are Devastating a Staple Crop \u2014 and Scientists Are Only Just Learning How",
+          "hook": "Four newly discovered bacterial species are quietly rotting sweet potato fields across China, using a biological toolkit no one knew these soil microbes possessed.",
+          "pitch_angle": "The discovery reframes what scientists know about soil-borne plant pathogens: instead of a single well-known toxin, these new Streptomyces species appear to weaponize iron competition and metabolic stress responses to colonize roots. Understanding this hidden diversity in agricultural soils may be essential for protecting food crops from emerging microbial threats."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42896226",
+      "headline": "A single RSV antibody shot cut infant hospitalizations by 78% in the first month of life \u2014 real-world data confirm it",
+      "journal": "Communicable Diseases Intelligence",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.33321/cdi.2026.50.066",
+      "groundbreaking": "Major public health implication / First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using Queensland's Notifiable Conditions Register, researchers compared RSV hospitalization rates in infants eligible for Australia's nirsevimab program (introduced 2024) to pre-program cohorts. The analysis showed a 78% reduction in RSV hospitalizations in the first month of life, with protection declining gradually to 23% by nine months and becoming statistically insignificant thereafter. An interrupted time-series analysis confirmed an immediate 63% population-level reduction in RSV hospitalizations following the program's rollout.",
+      "why_it_matters": "RSV is the leading cause of infant hospitalization worldwide, and this population-level real-world evidence from Australia strengthens the case for nirsevimab programs globally, including in countries still deciding whether to fund them.",
+      "caveats": "observational design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 8,
+      "relevance_score_reason": "Large population-level data, strong public health hook, clean interrupted time-series design.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "One RSV shot given at birth slashed infant hospitalizations by nearly 80% \u2014 real-world data show it works",
+          "hook": "A long-acting monoclonal antibody given to newborns reduced RSV hospitalizations by 78% in the first month of life, according to the first major real-world population study of Australia's nirsevimab program.",
+          "pitch_angle": "RSV sends more infants to the hospital than any other pathogen, and this population-level evidence that nirsevimab works outside of clinical trials is crucial for parents and pediatricians \u2014 and for health systems in countries still weighing whether to fund the program."
+        },
+        {
+          "publication_type": "The Atlantic / Scientific American",
+          "headline": "Australia's RSV baby shot program just produced a striking real-world test \u2014 and it passed",
+          "hook": "Australia's decision to offer all newborns a single dose of nirsevimab cut RSV hospitalizations by 63% at the population level almost immediately after the program launched.",
+          "pitch_angle": "Real-world rollouts of new immunization tools often underperform clinical trial results, making this Queensland dataset unusually important evidence for global RSV prevention policy, particularly as countries including the U.S. weigh broad infant immunization strategies."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42900041",
+      "headline": "Naloxone Unexpectedly Reversed Sedation in a Child Who Overdosed on an Antipsychotic \u2014 Not an Opioid",
+      "journal": "Clinical Toxicology (Philadelphia, Pa.)",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1080/15563650.2026.2748427",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "French pediatric intensivists report a case in which a child who had ingested a massive dose of olanzapine \u2014 an antipsychotic with no established opioid mechanism \u2014 showed unexpected clinical improvement after naloxone administration. The case, managed at CHU de Saint-\u00c9tienne, included toxicological confirmation of olanzapine as the sole substance. The authors suggest this unexpected naloxone response may reflect olanzapine's partial activity at opioid receptors, a pharmacological property not typically considered clinically significant.",
+      "why_it_matters": "If confirmed in additional cases, this finding could shift emergency management protocols for antipsychotic overdose \u2014 a scenario increasingly encountered in pediatric toxicology \u2014 by suggesting naloxone as a potential rescue intervention.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "Abstract provides no clinical detail beyond the title; summary is based on what can be responsibly inferred from the title and institutional affiliations. The abstract field is empty \u2014 the case description is inferred from journal, title, and author affiliations only. Treat with caution.",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive clinical case; pediatric overdose public health angle; single case report.",
+      "pitch_angles": [
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "The Overdose Antidote Naloxone Worked on a Child Who Hadn't Taken Opioids \u2014 Doctors Are Puzzled",
+          "hook": "Naloxone, the drug that reverses opioid overdoses, appears to have helped a child whose only ingested drug was an antipsychotic \u2014 a finding that surprises toxicologists.",
+          "pitch_angle": "This rare pediatric case suggests olanzapine may have more opioid-like properties than previously appreciated, raising questions about whether naloxone should be considered earlier in antipsychotic overdose emergencies."
+        },
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "A Child's Overdose Is Forcing Doctors to Rethink What Naloxone Can Actually Do",
+          "hook": "Emergency physicians have long known naloxone reverses opioid overdoses \u2014 but a new case report suggests the drug's reach may be broader and stranger than anyone expected.",
+          "pitch_angle": "As antipsychotic exposures in children rise and opioid antidotes become more widely distributed, this puzzling case asks whether medicine has drawn the pharmacological boundaries of naloxone too narrowly."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42908038",
+      "headline": "JAK inhibitors \u2014 increasingly prescribed to women with autoimmune disease \u2014 haven't been adequately studied in pregnancy, small new data suggest",
+      "journal": "BMC Pharmacology & Toxicology",
+      "pubdate": "2026 Oct 20",
+      "doi": "10.1186/s40360-026-01263-4",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers analyzed prospectively enrolled pregnancy data from the German Embryotox database for 44 pregnancies with first-trimester exposure to JAK inhibitors (baricitinib, filgotinib, tofacitinib, or upadacitinib) between 2017 and 2025. Of 32 live births, two major congenital anomalies were recorded, five spontaneous abortions occurred (including one case of fetal anencephaly), and other adverse neonatal outcomes including preterm birth and small-for-gestational-age infants were observed. The authors conclude the data are too limited to establish or exclude a causal link with adverse fetal outcomes, and advise against routine JAK inhibitor use during pregnancy.",
+      "why_it_matters": "JAK inhibitors are now widely prescribed for rheumatoid arthritis, psoriasis, and inflammatory bowel disease in women of reproductive age, yet pregnancy safety data remain critically sparse \u2014 a gap with real consequences for clinical decision-making.",
+      "caveats": "small sample (N<100), observational design, single-center",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Drug safety in pregnancy; major public health gap; small sample limits certainty.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "A New Class of Drugs Is Being Prescribed to Millions of Women \u2014 And Almost No One Knows If They're Safe in Pregnancy",
+          "hook": "JAK inhibitors have become go-to treatments for autoimmune diseases in women of childbearing age, yet only 44 documented pregnancies with first-trimester exposure exist in one of the world's largest teratology databases.",
+          "pitch_angle": "The study doesn't prove harm, but it reveals a striking void: drugs already in widespread use have not been studied rigorously enough in pregnancy to give physicians or patients a clear picture of fetal risk. It's a recurring pattern in drug safety research, where reproductive-age women are systematically underrepresented in trials."
+        },
+        {
+          "publication_type": "Health.com / Women's Health",
+          "headline": "If You Have Rheumatoid Arthritis or Psoriasis and Want to Get Pregnant, Ask Your Doctor About This Drug Class",
+          "hook": "A growing family of drugs prescribed for autoimmune conditions hasn't been adequately studied during pregnancy \u2014 and new data from Germany underscore just how thin the evidence really is.",
+          "pitch_angle": "The analysis of 44 pregnancies found several concerning outcomes but can't definitively link them to the drugs, leaving doctors and patients in a difficult gray zone. Women with autoimmune diseases who are planning a pregnancy are increasingly caught between managing their condition and navigating real uncertainty about fetal safety."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42894296",
+      "headline": "Kids with confirmed brain infections who don't meet standard diagnostic criteria still face the same grim odds",
+      "journal": "The Pediatric Infectious Disease Journal",
+      "pubdate": "2026 Oct 19",
+      "doi": "10.1097/INF.0000000000005444",
+      "groundbreaking": "Major public health implication / Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers conducted a secondary analysis of a retrospective multicenter study across 10 Spanish pediatric emergency departments, reviewing 446 children under 18 who underwent CSF PCR testing for suspected encephalitis between 2017 and 2023. Children classified as 'subthreshold' by International Encephalitis Consortium criteria \u2014 meaning they had a confirmed pathogen but only one minor criterion \u2014 had virtually identical rates of adverse outcomes (30%) as those meeting full IEC criteria (31.4%). Abnormal neuroimaging was the single strongest independent predictor of poor outcomes, followed by bacterial etiology and focal neurologic deficits.",
+      "why_it_matters": "Children who technically fall below diagnostic thresholds for encephalitis may be undertreated, suggesting current criteria may cause clinicians to miss cases at equal risk of lasting neurological harm.",
+      "caveats": "observational design, secondary analysis, retrospective design, single-country cohort (Spain)",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive finding with pediatric clinical implications; retrospective secondary analysis limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark / The Atlantic",
+          "headline": "The Diagnostic Criteria for Childhood Brain Infections May Be Leaving Kids Behind",
+          "hook": "Children who don't fully meet the standard checklist for encephalitis \u2014 but who have a confirmed brain-infecting pathogen \u2014 face the same risk of lasting neurological damage as those who do, a multicenter Spanish study found.",
+          "pitch_angle": "The finding raises uncomfortable questions about whether widely used international diagnostic criteria are fit for purpose in pediatric emergency settings, and whether 'subthreshold' cases are being systematically undertreated. With abnormal brain imaging emerging as the strongest danger signal, the study suggests imaging \u2014 not criteria checklists \u2014 may be the more reliable guide to aggressive treatment."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42895723",
+      "headline": "Ancient Ayurvedic mercury formulas dramatically boost survival in drug-resistant Salmonella sepsis \u2014 in mice",
+      "journal": "Letters in Applied Microbiology",
+      "pubdate": "2026 Oct 19",
+      "doi": "10.1093/lambio/ovag089",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers tested two classical Indian herbo-mineral Ayurvedic preparations \u2014 Rasa Manikya and Rasa Sindura \u2014 against multidrug-resistant Salmonella Typhimurium sepsis in mice (N=mice, group sizes not specified in abstract). Both formulations, given orally at 25 mg/kg, significantly improved clinical scores, reduced bacterial burden in organs, and boosted survival to 87% (RS) and 81% (RM) compared to 50% in untreated controls. The study suggests these traditional mercury-based compounds may have antibacterial and organ-protective effects against MDR pathogens, though toxicity and pharmacokinetics remain unstudied.",
+      "why_it_matters": "As multidrug-resistant Salmonella infections rise globally, traditional medicine systems may harbor unexplored compound classes worth investigating for antibiotic resistance.",
+      "caveats": "animal or cell study, small sample, single-center, short follow-up, toxicity and pharmacokinetics uncharacterized, mercury-based compounds raise safety concerns",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Antibiotic resistance hook but mouse-only study with significant safety unknowns.",
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist / General science",
+          "headline": "Could ancient Indian mercury medicines fight superbugs? Mouse study offers a surprising clue",
+          "hook": "Two Ayurvedic formulations containing mercury nearly doubled survival in mice with drug-resistant Salmonella sepsis \u2014 a finding that surprises researchers and raises urgent questions about safety.",
+          "pitch_angle": "Classical Indian herbo-mineral preparations showed potent activity against multidrug-resistant Salmonella in mice, suggesting traditional medicine may contain overlooked pharmacological leads. The findings are early-stage and the compounds carry serious toxicity unknowns, but they highlight the untapped chemical diversity of traditional medicine systems in the antibiotic resistance era."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42895962",
+      "headline": "A tapeworm cyst in the brain was mistaken for a tumor \u2014 and it's happening more in non-endemic countries",
+      "journal": "Journal of Travel Medicine",
+      "pubdate": "2026 Oct 19",
+      "doi": "10.1093/jtm/taag090",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "This case report from a Madrid referral center describes a patient presenting with a solitary brain lesion that was initially suspected to be a primary brain tumor but was confirmed surgically to be neurocysticercosis \u2014 a parasitic infection caused by Taenia solium tapeworm larvae. The case underscores how increased global travel and migration are bringing tropical parasitic diseases into non-endemic clinical settings where they are rarely considered in differential diagnoses. No patient N beyond this single case is provided in the abstract.",
+      "why_it_matters": "As international travel and migration increase, clinicians in non-endemic countries risk misdiagnosing parasitic brain infections as cancer, potentially leading to unnecessary and harmful surgical or oncological treatment.",
+      "caveats": "small sample (N=1), single-center, case report only \u2014 no systematic data",
+      "fact_check_note": "Abstract contains no patient-level data beyond the case description; summary reflects what can be verified from the abstract alone.",
+      "relevance_score": 5,
+      "relevance_score_reason": "Travel medicine angle is relevant but single case report limits generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "The Atlantic / Undark",
+          "headline": "Doctors thought it was brain cancer. It was a tapeworm.",
+          "hook": "A patient in Madrid underwent brain surgery for what looked like a tumor \u2014 and surgeons found a tapeworm cyst instead.",
+          "pitch_angle": "Neurocysticercosis, a parasitic infection endemic to parts of Latin America, Africa, and Asia, is increasingly appearing in European and North American hospitals as travel and migration rise \u2014 and it can perfectly mimic brain cancer on imaging. The case raises urgent questions about whether non-endemic healthcare systems are prepared to recognize and treat tropical diseases they were never trained to expect."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42895324",
+      "headline": "Scientists discover a virus living inside the deadly fungus that causes cryptococcal meningitis \u2014 a finding that could change how we understand its lethality",
+      "journal": "mBio",
+      "pubdate": "2026 Oct 19",
+      "doi": "10.1128/mbio.02060-26",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers searched publicly available transcriptomic data from clinical isolates of Cryptococcus neoformans \u2014 the fungus responsible for cryptococcal meningitis \u2014 for viral RNA-dependent RNA polymerase signatures, identifying Totiviridae viral genomes in six isolates from HIV-positive patients in Botswana. All six isolates came from cerebrospinal fluid samples, and RT-PCR independently confirmed the virus in three of them. The newly described Totivirus species represents the first mycovirus characterized in C. neoformans, a pathogen responsible for an estimated 180,000 deaths annually.",
+      "why_it_matters": "Because mycoviruses can modulate the virulence of fungal pathogens, the discovery of a virus inside one of the world's deadliest fungi raises the possibility that viral infection shapes how dangerous C. neoformans is in immunocompromised patients.",
+      "caveats": "small sample (N<100), observational design, animal or cell study",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "First discovery in major human fungal pathogen; infectious disease hook; small sample limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Undark",
+          "headline": "A Virus Has Been Hiding Inside a Deadly Brain-Infecting Fungus \u2014 and No One Knew It Was There",
+          "hook": "Cryptococcus neoformans kills around 180,000 people a year, mostly people with HIV/AIDS \u2014 and it turns out the fungus itself may be harboring a virus that could influence how lethal it is.",
+          "pitch_angle": "The first-ever mycovirus discovered in C. neoformans was found in cerebrospinal fluid samples from HIV-positive patients in Botswana, raising fundamental questions about whether a hidden viral passenger shapes the fungus's ability to cause fatal meningitis. For the millions of immunocompromised people at risk globally, understanding what makes this pathogen deadly has urgent stakes."
+        },
+        {
+          "publication_type": "New Scientist",
+          "headline": "The Deadly Fungus Behind Most HIV-Related Meningitis Has Its Own Virus",
+          "hook": "A search through clinical genomic data uncovered a previously unknown virus living inside Cryptococcus neoformans \u2014 a fungal pathogen that is among the leading infectious killers of people with HIV.",
+          "pitch_angle": "Found in cerebrospinal fluid from six patients in Botswana, the newly described Totivirus is the first mycovirus characterized in this species and could influence fungal virulence in ways that have gone unexamined. The discovery opens a new line of investigation into whether controlling the virus \u2014 or exploiting it \u2014 might one day change treatment outcomes."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42894033",
+      "headline": "A licorice compound restarts stalled heart cells \u2014 and may point to a new treatment for a common, hard-to-treat heart failure",
+      "journal": "Acta Pharmacologica Sinica",
+      "pubdate": "2026 Oct 19",
+      "doi": "10.1038/s41401-026-01952-0",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Using mouse and cell models of heart failure with preserved ejection fraction (HFpEF), researchers found that glabridin \u2014 a bioactive isoflavone from licorice root \u2014 could alleviate cardiac hypertrophy and fibrosis by preventing the degradation of Cyclin A2, a protein that helps cardiomyocytes re-enter the cell cycle after injury. The study identifies abnormal cell cycle arrest as a previously unrecognized driver of HFpEF pathology. Restoring Cyclin A2 levels reduced oxidative stress and improved metabolic homeostasis in both heart and liver cells.",
+      "why_it_matters": "HFpEF accounts for roughly half of all heart failure cases and has no disease-modifying therapies, making the identification of cell cycle arrest as a druggable mechanism a potentially significant step toward treatment.",
+      "caveats": "animal or cell study, single-center",
+      "fact_check_note": "",
+      "relevance_score": 6,
+      "relevance_score_reason": "Counterintuitive mechanism; HFpEF unmet need; animal/cell study limits score.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Knowable Magazine",
+          "headline": "Half of All Heart Failure Has No Good Treatment. A Licorice Compound May Hint at Why \u2014 and How to Fix It",
+          "hook": "Heart failure with preserved ejection fraction is stubbornly hard to treat in part, new research suggests, because heart muscle cells get stuck in a kind of biological stasis \u2014 and a compound from licorice root may help unstick them.",
+          "pitch_angle": "The study identifies cell cycle arrest as a newly recognized driver of HFpEF and shows that glabridin can restore a key cell-cycle protein and trigger cardiac repair in animal models. While far from clinical use, the finding reframes how researchers think about a condition affecting tens of millions of people worldwide."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42894075",
+      "headline": "Two natural supplements together nearly neutralize the immune-crushing effects of common poultry feed toxins",
+      "journal": "Tropical Animal Health and Production",
+      "pubdate": "2026 Oct 18",
+      "doi": "10.1007/s11250-026-05415-w",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers exposed 240 one-day-old broiler chicks to aflatoxin B\u2081 and ochratoxin A \u2014 two mold toxins that frequently co-contaminate poultry feed \u2014 and tested whether Moringa oleifera leaf powder and silymarin (milk thistle extract) could protect against combined toxin damage over 35 days. Birds co-exposed to both toxins showed the greatest immune suppression, growth stunting, and organ damage, while combined supplementation with both natural compounds restored most parameters nearly to control levels. The findings suggest a dietary mitigation strategy for mycotoxin co-contamination, a widespread problem in poultry agriculture globally.",
+      "why_it_matters": "Mycotoxin contamination of poultry feed is a global food safety and animal welfare problem, and a low-cost natural supplement combination could offer a practical mitigation tool for producers worldwide.",
+      "caveats": "animal or cell study, single-center, short follow-up, conducted in Pakistan \u2014 generalizability to other production systems uncertain",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Food safety and animal health angle, but poultry-only animal study limits audience.",
+      "pitch_angles": [
+        {
+          "publication_type": "General science / Science News",
+          "headline": "Moringa and milk thistle together may protect poultry from toxic mold combinations threatening the global food supply",
+          "hook": "When two of the most common mold toxins in poultry feed strike together, the immune damage is worse than either alone \u2014 but a pair of plant-based supplements may nearly undo the harm.",
+          "pitch_angle": "Aflatoxin and ochratoxin A routinely co-contaminate grain-based poultry feeds worldwide, suppressing immune function and stunting growth in ways that single-toxin studies may underestimate. A new broiler study finds that combining Moringa leaf powder and silymarin dietary supplements could offer producers an affordable, natural tool to protect flock health \u2014 though human trials and larger-scale production studies are needed."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "1/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42891985",
+      "headline": "Nanoparticles forged from sea bacteria can dismantle biofilms on one of medicine's most feared drug-resistant superbugs",
+      "journal": "Future Microbiology",
+      "pubdate": "2026 Oct 17",
+      "doi": "10.1080/17460913.2026.2749316",
+      "groundbreaking": "First-in-class human study",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers used cell-free extracts from the marine bacterium Stenotrophomonas maltophilia to biosynthesize copper-doped zinc oxide nanocomposites (Cu-ZnO NCs) and tested them in vitro against carbapenem-resistant Acinetobacter baumannii (CRAB), a WHO priority pathogen. At 80 \u00b5g/mL, the 1% Cu-ZnO nanocomposites significantly reduced biofilm formation, slime production, phospholipase activity, and efflux pump function in CRAB strains. The study is in vitro only, but suggests biofabricated metal oxide nanocomposites may offer a new antivirulence strategy against one of the most treatment-resistant hospital-acquired pathogens.",
+      "why_it_matters": "Carbapenem-resistant Acinetobacter baumannii causes tens of thousands of deaths in hospitals worldwide each year and has almost no remaining antibiotic treatment options, making novel antivirulence strategies a critical research priority.",
+      "caveats": "animal or cell study, small sample (N<100), single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Antibiotic resistance topic bonus; in vitro only limits translation and audience relevance.",
+      "pitch_angles": [
+        {
+          "publication_type": "New Scientist / Wired",
+          "headline": "Ocean Bacteria Are Helping Scientists Build Nanoweapons Against a Near-Untreatable Hospital Superbug",
+          "hook": "Copper-doped nanoparticles biosynthesized from a marine bacterium can dismantle the protective biofilms of one of the world's most antibiotic-resistant hospital pathogens \u2014 at least in a lab dish.",
+          "pitch_angle": "Carbapenem-resistant Acinetobacter baumannii survives nearly every available antibiotic, but new in vitro research suggests that metal oxide nanocomposites made using marine-derived bacteria can attack its biofilms and disable key virulence mechanisms. If the approach holds up in animal and clinical studies, it could represent a fundamentally different \u2014 and urgently needed \u2014 strategy against hospital superbugs."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42892438",
+      "headline": "A cheap antibiotic combo finally lets scientists reliably detect Campylobacter hiding behind drug-resistant E. coli",
+      "journal": "Journal of Microbiological Methods",
+      "pubdate": "2026 Oct 17",
+      "doi": "10.1016/j.mimet.2026.107756",
+      "groundbreaking": "Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers in Bangladesh tested a modified culture medium (mCCDA) supplemented with tazobactam-piperacillin to selectively isolate Campylobacter from samples heavily contaminated with ESBL-producing E. coli. They evaluated the method on 120 chicken caecal samples and 120 stool samples from pediatric diarrhea patients. The TP-mCCDA medium recovered Campylobacter at a rate of 59.2% from chicken samples versus 20.0% with standard media, and detected Campylobacter in pediatric stool samples where standard methods found none.",
+      "why_it_matters": "Antibiotic-resistant E. coli routinely masks Campylobacter infections in diagnostic labs, potentially leading to missed diagnoses and untreated foodborne illness in children, so a low-cost detection fix could improve surveillance and outbreak response globally.",
+      "caveats": "small sample (N<100), single-center, observational design",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Antibiotic resistance hook; methodological study with limited sample, Bangladesh-specific context.",
+      "pitch_angles": [
+        {
+          "publication_type": "Science News / New Scientist",
+          "headline": "Drug-resistant E. coli has been hiding Campylobacter from lab tests \u2014 a cheap fix may change that",
+          "hook": "A common drug-resistant gut bacterium has been masking one of the world's leading foodborne pathogens in standard lab tests, and a low-cost antibiotic supplement may finally solve the problem.",
+          "pitch_angle": "ESBL-producing E. coli overgrows Campylobacter on standard culture plates, likely causing widespread underdiagnosis of a pathogen that sickens hundreds of millions annually; the new method tripled detection rates in chicken samples and found cases invisible to standard tests in sick children."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42887834",
+      "headline": "Flavonoids from a traditional Uyghur herb show stroke-protective effects in rats \u2014 by shielding the blood-brain barrier",
+      "journal": "Journal of Ethnopharmacology",
+      "pubdate": "2026 Oct 17",
+      "doi": "10.1016/j.jep.2026.122522",
+      "groundbreaking": "Counterintuitive finding",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers extracted total flavonoids from Ziziphora clinopodioides \u2014 a herb used in traditional Uyghur medicine in Xinjiang, China \u2014 and tested them in rats with surgically induced ischemic stroke and in brain endothelial cell cultures. The flavonoid mixture reduced brain infarct volume, preserved blood-brain barrier integrity by restoring tight junction proteins and suppressing matrix metalloproteinases, and dampened neuroinflammation via the PI3K/Akt and TLR4/NF-\u03baB/NLRP3 pathways. Three specific flavonoids \u2014 diosmin, glycitin, and tilianin \u2014 were identified as likely active compounds through molecular docking and simulation.",
+      "why_it_matters": "Ischemic stroke remains a leading cause of death and disability globally with limited acute treatment options, and ethnopharmacological leads that target blood-brain barrier protection represent an underexplored therapeutic avenue.",
+      "caveats": "animal or cell study, single-center",
+      "fact_check_note": "",
+      "relevance_score": 5,
+      "relevance_score_reason": "Animal/cell study; ethnopharmacology niche; limited generalizability.",
+      "pitch_angles": [
+        {
+          "publication_type": "bioGraphic / New Scientist",
+          "headline": "A Herb Used in Uyghur Medicine for Centuries May Help Protect the Brain After a Stroke",
+          "hook": "A flavonoid-rich extract from a plant prescribed in traditional Uyghur medicine for heart and circulatory disorders shows striking stroke-protective effects in rats \u2014 by reinforcing the brain's own protective barrier.",
+          "pitch_angle": "The study maps out a molecular mechanism linking three specific compounds in the herb to reduced brain damage and inflammation after ischemic stroke, offering a rare scientific window into ethnopharmacological knowledge from Central Asia. All findings are in animal and cell models, so clinical relevance remains uncertain."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Pharmacology & Drug Therapy",
+      "chunk": "2/2",
+      "status": "new"
+    },
+    {
+      "pmid": "42896099",
+      "headline": "Scientists pinpoint why a mutant Echovirus strain is killing newborns at higher rates \u2014 it hijacks a cell death receptor",
+      "journal": "Emerging Microbes & Infections",
+      "pubdate": "2026 Dec",
+      "doi": "10.1080/22221751.2026.2746750",
+      "groundbreaking": "Counterintuitive finding / Major public health implication",
+      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
+      "summary": "Researchers compared a clinical isolate of the newly emergent Echovirus 11 D5 genotype \u2014 linked to severe neonatal disease worldwide \u2014 to the prototype strain in human lung epithelial cells (A549). They found the clinical isolate binds and activates the Fas receptor, a cell surface protein involved in programmed cell death, which enhances viral replication and accelerates release of infectious particles. The mechanism helps explain why this recombinant variant causes greater cytopathic effects and higher viral loads than earlier strains.",
+      "why_it_matters": "Echovirus 11 has caused outbreaks of fatal neonatal hepatitis across multiple countries in recent years, and identifying the molecular mechanism driving its increased virulence is a necessary first step toward targeted therapies or surveillance strategies to protect the most vulnerable infants.",
+      "caveats": "animal or cell study",
+      "fact_check_note": "",
+      "relevance_score": 7,
+      "relevance_score_reason": "Pandemic preparedness adjacent; mechanistic finding on globally emerging neonatal pathogen; cell study only.",
+      "pitch_angles": [
+        {
+          "publication_type": "Scientific American / Emerging Infectious Disease beat",
+          "headline": "A mutant virus killing newborns worldwide does it by hijacking a cell suicide switch",
+          "hook": "A newly emergent strain of Echovirus 11 \u2014 linked to deadly neonatal outbreaks across multiple countries \u2014 turns out to exploit the Fas receptor, a protein normally involved in programmed cell death, to replicate faster and spread more aggressively.",
+          "pitch_angle": "The finding explains at the molecular level why this recombinant variant is so much more dangerous than older strains and why neonates are especially vulnerable; it also points toward the Fas receptor as a potential therapeutic target and underscores the urgency of global surveillance for a pathogen that has largely flown under the radar."
+        }
+      ],
+      "run_date": "2026-10-23",
+      "category": "Infectious Disease",
+      "chunk": "2/2",
+      "status": "new"
+    },
     {
       "pmid": "42520242",
       "headline": "Too much of a good antioxidant enzyme makes cells more vulnerable to radiation damage, not less",
@@ -7516,39 +8332,6 @@
       "status": "new"
     },
     {
-      "pmid": "42808754",
-      "headline": "A microfluidic trick unlocks Arctic soil's vast 'microbial dark matter' \u2014 recovering 8 times more species than standard lab methods",
-      "journal": "Applied and Environmental Microbiology",
-      "pubdate": "2026 Sep 29",
-      "doi": "10.1128/aem.01124-26",
-      "groundbreaking": "First-in-class human study / Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers applied microfluidic droplet technology (MDT) \u2014 which isolates individual microbial cells in tiny oil-encased droplets \u2014 to Arctic active-layer soil for the first time, benchmarking it against conventional plate-based cultivation. MDT achieved 6.5- to 8.1-fold higher bacterial recovery rates and 180-fold greater throughput, detecting 256 genera versus 211 for standard methods. Roughly 50% of MDT sequences represented potential novel species and 27% potential novel genera, with 12 of 17 verified isolates confirmed as candidate new species.",
-      "why_it_matters": "Unlocking Arctic soil's 'microbial dark matter' could reveal cold-adapted organisms with novel enzymes, biosynthetic pathways, and biotechnological applications \u2014 while also providing baseline data on polar ecosystems under climate pressure.",
-      "caveats": "animal or cell study, single-center",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Strong methodological advance; climate-linked Arctic angle, but no direct public health hook.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "Tiny Oil Droplets Are Cracking Open the Arctic's Hidden Microbial Universe",
-          "hook": "Standard lab dishes capture only a sliver of Arctic soil microbes \u2014 a microfluidic approach just multiplied that recovery eightfold, revealing hundreds of potentially new species.",
-          "pitch_angle": "By encasing single bacterial cells in microscopic oil droplets, researchers prevented fast-growing microbes from crowding out rare, slow-growing cold-adapted species that conventional culturing misses entirely. The method could transform how scientists prospect polar ecosystems for novel compounds and track how Arctic microbiomes shift as permafrost thaws."
-        },
-        {
-          "publication_type": "bioGraphic / Knowable Magazine",
-          "headline": "The Arctic Soil Beneath Our Feet Is Teeming With Unknown Life \u2014 And We Just Found a Way In",
-          "hook": "Half of all bacterial sequences recovered from Arctic soil using a new microfluidic method belong to species science has never seen before.",
-          "pitch_angle": "As climate change reshapes polar ecosystems, microbiologists are racing to catalog what lives in Arctic permafrost soils before conditions change \u2014 and a new droplet-based culturing technique suggests the true diversity of cold-adapted microbes dwarfs what standard methods reveal."
-        }
-      ],
-      "run_date": "2026-10-06",
-      "category": "Infectious Disease",
-      "chunk": "1/2",
-      "status": "new"
-    },
-    {
       "pmid": "42822183",
       "headline": "Four new bacterial species found in healthy human guts \u2014 and researchers couldn't even grow most of their close relatives until now",
       "journal": "Systematic and Applied Microbiology",
@@ -9832,33 +10615,6 @@
       "status": "new"
     },
     {
-      "pmid": "42775881",
-      "headline": "Parasitic worms carry their own microbiomes \u2014 and scientists barely know what lives inside them",
-      "journal": "mSystems",
-      "pubdate": "2026 Sep 23",
-      "doi": "10.1128/msystems.00569-26",
-      "groundbreaking": "Counterintuitive finding",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "This review summarizes current evidence on the microbiomes harbored within Ascaris and Trichuris nematodes \u2014 soil-transmitted parasites infecting hundreds of millions of people globally \u2014 rather than focusing on how those parasites affect the host gut. Researchers found that the parasites' own gut-associated microbial communities are largely transient and host-derived, while potentially stable microbiomes in reproductive tissues remain almost entirely unstudied. The authors argue that understanding these parasite-associated microbiomes could open new avenues for microbiome-based strategies to control parasitic infections.",
-      "why_it_matters": "Soil-transmitted helminths infect over a billion people worldwide, and understanding the microbiomes inside the worms themselves could reveal new targets for treating or preventing these infections.",
-      "caveats": "review article, animal or cell study (no primary human data presented), limited primary data available in field",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "Niche parasitology review; gut microbiome hook but no new primary human data.",
-      "pitch_angles": [
-        {
-          "publication_type": "New Scientist / Knowable Magazine",
-          "headline": "The worms infecting a billion people have their own hidden microbiomes",
-          "hook": "Scientists have spent decades studying what parasitic worms do to your gut \u2014 but almost no one has looked at what microbes live inside the worms themselves.",
-          "pitch_angle": "A new review highlights a striking blind spot in parasitology: the internal microbiomes of Ascaris and Trichuris nematodes are largely unmapped, with reproductive tissues almost entirely unexplored. Understanding what microbes sustain these parasites from within could point toward entirely new ways to fight infections that affect over a billion people."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42773322",
       "headline": "A ray species eaten across northeastern Brazil carries heavy metals \u2014 but health risk depends heavily on who's eating and how much",
       "journal": "Biological Trace Element Research",
@@ -9905,33 +10661,6 @@
           "headline": "Chikungunya is spreading \u2014 and a Mexican outbreak shows how easily it hides behind dengue",
           "hook": "In a 2015 outbreak in inland Mexico, 84% of patients with suspected dengue actually had chikungunya \u2014 and one viral sample carried a mutation scientists had never seen before.",
           "pitch_angle": "Genomic sequencing of a chikungunya outbreak in Chiapas uncovered a novel viral substitution and revealed how thoroughly the virus can masquerade as dengue where both pathogens circulate simultaneously. As chikungunya pushes into new territories including the southern U.S., the study suggests that clinical diagnosis alone is dangerously inadequate and that genomic surveillance needs to keep pace with the virus's spread."
-        }
-      ],
-      "run_date": "2026-09-29",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42775892",
-      "headline": "A gut bacterium found in humans suppresses colorectal cancer in lab models \u2014 without triggering dangerous inflammation",
-      "journal": "mSystems",
-      "pubdate": "2026 Sep 23",
-      "doi": "10.1128/msystems.00528-26",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers isolated a novel Streptomyces strain (CGMCC 17111) from the human gut and characterized it genetically and functionally in vitro and in vivo models. The strain, distinct from its closest known relative Streptomyces albidoflavus \u2014 which shows no anticancer activity \u2014 induced apoptosis in colorectal cancer cells and appeared to restore gut homeostasis without provoking strong inflammatory responses in experimental models. The findings suggest that anticancer bacteria may already reside in the human gut but become suppressed under certain conditions.",
-      "why_it_matters": "Colorectal cancer is one of the leading causes of cancer death globally, and identifying gut-resident bacteria with tumor-suppressive properties could open a new class of microbiome-based therapies.",
-      "caveats": "animal or cell study, early preclinical stage only, no human clinical data, single-center",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Gut microbiome topic bonus; counterintuitive finding, but preclinical only reduces score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / New Scientist",
-          "headline": "Your gut may already harbor bacteria that fight colon cancer \u2014 scientists just found one",
-          "hook": "A bacterium discovered living in the human gut can kill colorectal cancer cells in the lab without triggering the runaway inflammation that derails many cancer therapies.",
-          "pitch_angle": "Researchers isolated a novel Streptomyces strain from human intestinal microbiota that shows potent anticancer activity in cell and animal models, suggesting the gut may harbor suppressed tumor-fighting microbes. If validated in humans, it could support a new wave of microbiome-based approaches to one of the world's deadliest cancers."
         }
       ],
       "run_date": "2026-09-29",
@@ -13834,39 +14563,6 @@
       "status": "new"
     },
     {
-      "pmid": "42734327",
-      "headline": "One gut bacterium is depleted in colorectal cancer, Crohn's disease, and liver cirrhosis \u2014 a shared microbial weak spot",
-      "journal": "mSystems",
-      "pubdate": "2026 Sep 14",
-      "doi": "10.1128/msystems.00836-26",
-      "groundbreaking": "Counterintuitive finding / First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "Researchers applied a novel 'maximin' analytical framework \u2014 designed to guarantee reliable worst-case performance across analytical pipelines \u2014 to public gut metagenomics and serum metabolomics datasets from patients with colorectal cancer, Crohn's disease, and liver cirrhosis. Among 1,152 preprocessing-model configurations tested across six classification tasks, a single bacterial taxon, Firmicutes bacterium CAG:41, was consistently depleted across all three diseases and linked to sulfur-selenium redox metabolism and B-vitamin biosynthesis. Host metabolic responses, however, were largely disease-specific, suggesting a two-layer architecture: shared microbial vulnerability with divergent downstream effects.",
-      "why_it_matters": "Identifying a single gut bacterial species depleted across three major diseases could point toward a common microbial target for screening or future intervention research, while the analytical method itself may improve reliability of cross-disease microbiome studies.",
-      "caveats": "secondary analysis, observational design, computational \u2014 external validation adequately powered only for CRC, CD and LC assessments exploratory only",
-      "fact_check_note": "",
-      "relevance_score": 6,
-      "relevance_score_reason": "Gut microbiome topic bonus; strong analytical novelty but secondary analysis with limited validation.",
-      "pitch_angles": [
-        {
-          "publication_type": "Scientific American / Knowable Magazine",
-          "headline": "Three gut diseases share one microbial missing piece \u2014 and a new method is making the finding more trustworthy",
-          "hook": "A single gut bacterium, consistently absent in colorectal cancer, Crohn's disease, and liver cirrhosis, may represent a shared microbial vulnerability \u2014 but the real advance is the statistical approach that made the comparison reliable for the first time.",
-          "pitch_angle": "Scientists have long struggled to compare microbiome data across diseases because arbitrary analytical choices can make results flip from near-random to near-perfect on the same dataset; a new 'maximin' optimization framework addresses that flaw. The result: one bacterial species depleted across three major gut-associated diseases, potentially pointing to a new avenue for screening research."
-        },
-        {
-          "publication_type": "The Atlantic / Undark",
-          "headline": "The microbiome field has a reproducibility problem. One study just tried to solve it \u2014 and found something surprising along the way",
-          "hook": "Researchers showed that choosing different data-processing pipelines on identical gut microbiome data can make results look nearly random or nearly perfect \u2014 a flaw that has likely undermined years of published findings.",
-          "pitch_angle": "By building an analytical method that guarantees reliable results regardless of pipeline choice, scientists found a gut bacterium depleted across colorectal cancer, Crohn's disease, and liver cirrhosis \u2014 but the bigger story may be what the method reveals about how fragile microbiome science has been. The findings call for a rethinking of how cross-disease microbiome studies are designed and reported."
-        }
-      ],
-      "run_date": "2026-09-20",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
-      "status": "new"
-    },
-    {
       "pmid": "42726649",
       "headline": "A decade of melasma drug patents shows industry mostly just recycling old ingredients",
       "journal": "Expert Opinion on Therapeutic Patents",
@@ -14845,33 +15541,6 @@
       "run_date": "2026-09-18",
       "category": "Infectious Disease",
       "chunk": "1/2",
-      "status": "new"
-    },
-    {
-      "pmid": "42725772",
-      "headline": "A massive metagenome survey uncovers hidden diversity in bacterial 'genome editors' that scientists are racing to harness as biotechnology tools",
-      "journal": "mSystems",
-      "pubdate": "2026 Sep 11",
-      "doi": "10.1128/msystems.00732-26",
-      "groundbreaking": "First-in-class human study",
-      "media_coverage": "Not widely covered \u2713 (SERPAPI verified)",
-      "summary": "A single researcher surveyed retron reverse transcriptase sequences across the SPIRE metagenome collection \u2014 a non-redundant dataset spanning over 100,000 processed microbial metagenomes from diverse habitats \u2014 using hidden Markov model profiling. The analysis identified all canonical retron types plus two previously unrecognized candidate lineages (TXI_C2like and TXI_noncan_h) with distinct protein domain architectures and conserved non-coding RNA structural elements. Retron distribution showed strong structuring by bacterial taxonomy and ecological niche, suggesting both evolutionary constraint and ecological specialization.",
-      "why_it_matters": "Retrons are being actively engineered as programmable genome-editing, biosensing, and molecular-recording tools, and mapping their full natural diversity accelerates identification of new variants with novel biotechnological properties.",
-      "caveats": "purely computational with no validation, single-author study, no experimental confirmation of novel lineage function",
-      "fact_check_note": "",
-      "relevance_score": 5,
-      "relevance_score_reason": "CRISPR/gene-editing tool topic bonus; purely computational with no experimental validation reduces score.",
-      "pitch_angles": [
-        {
-          "publication_type": "Wired / Scientific American",
-          "headline": "Scientists Are Mining Millions of Microbial Genomes for Nature's Next Genome-Editing Tool",
-          "hook": "A sweeping survey of more than 100,000 microbial metagenomes has uncovered a trove of hidden diversity in retrons \u2014 bacterial elements that researchers are rapidly engineering into next-generation genome editors and biosensors.",
-          "pitch_angle": "Retrons, once obscure bacterial anti-phage defense systems, have emerged as promising alternatives and complements to CRISPR for genome editing and molecular recording; this study maps their full ecological and evolutionary landscape for the first time, identifying two novel lineage families with unusual architectures that could yield new biotechnology tools. The findings provide a roadmap for the field to prioritize which retron variants to experimentally characterize next."
-        }
-      ],
-      "run_date": "2026-09-18",
-      "category": "Infectious Disease",
-      "chunk": "2/2",
       "status": "new"
     },
     {
